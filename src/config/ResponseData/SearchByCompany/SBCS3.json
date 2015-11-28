@@ -14,7 +14,7 @@
           "companyName": "Cipla",
           "expiryDate": "10/02/2016",
           "productId": "med_1",
-          "productName": "Medicine 1",
+          "productName": "Medicine1",
           "quantitiy": "10",
           "type": "tablet",
           "batchNo": "batch_1"
@@ -24,7 +24,7 @@
           "companyName": "Cipla",
           "expiryDate": "10/02/2016",
           "productId": "med_2",
-          "productName": "Medicine 2",
+          "productName": "Medicine2",
           "quantitiy": "10",
           "type": "tablet",
           "batchNo": "batch_2"
@@ -34,7 +34,7 @@
           "companyName": "Cipla",
           "expiryDate": "10/02/2016",
           "productId": "med_3",
-          "productName": "Medicine 3",
+          "productName": "Medicine3",
           "quantitiy": "10",
           "type": "tablet",
           "batchNo": "batch_1"
@@ -44,7 +44,7 @@
           "companyName": "Cipla",
           "expiryDate": "10/02/2016",
           "productId": "med_4",
-          "productName": "Medicine 4",
+          "productName": "Medicine4",
           "quantitiy": "10",
           "type": "tablet",
           "batchNo": "batch_2"
@@ -54,7 +54,57 @@
           "companyName": "Cipla",
           "expiryDate": "10/02/2016",
           "productId": "med_5",
-          "productName": "Medicine 1",
+          "productName": "Medicine5",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Cipla",
+          "expiryDate": "10/02/2016",
+          "productId": "med_6",
+          "productName": "Medicine6",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Cipla",
+          "expiryDate": "10/02/2016",
+          "productId": "med_7",
+          "productName": "Medicine7",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Cipla",
+          "expiryDate": "10/02/2016",
+          "productId": "med_8",
+          "productName": "Medicine8",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Cipla",
+          "expiryDate": "10/02/2016",
+          "productId": "med_9",
+          "productName": "Medicine9",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Cipla",
+          "expiryDate": "10/02/2016",
+          "productId": "med_10",
+          "productName": "Medicine10",
           "quantitiy": "10",
           "type": "tablet",
           "batchNo": "batch_1"
@@ -64,8 +114,11 @@
     "listStockistDetail": {
       "stockistDetail": {
         "address": "Kanpur",
-        "stockistId": "stock_1",
-        "stockistName": "Stockist 1"
+        "contactNumber": "1234567890",
+        "contactPerson": "ABC",
+        "emailID": "ABC@GMAIL.COM",
+        "stockistId": "stock1",
+        "stockistName": "Stockist1"
       }
     }
   }

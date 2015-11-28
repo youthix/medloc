@@ -81,7 +81,57 @@
           "companyName": "Company 1",
           "expiryDate": "10/02/2016",
           "productId": "med_5",
-          "productName": "Medicine 1",
+          "productName": "Medicine 5",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_6",
+          "productName": "Medicine 6",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Company 2",
+          "expiryDate": "10/02/2016",
+          "productId": "med_7",
+          "productName": "Medicine 7",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Company 3",
+          "expiryDate": "10/02/2016",
+          "productId": "med_8",
+          "productName": "Medicine 8",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_9",
+          "productName": "Medicine 9",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_10",
+          "productName": "Medicine 10",
           "quantitiy": "10",
           "type": "tablet",
           "batchNo": "batch_1"
@@ -92,13 +142,67 @@
       "stockistDetail": [
         {
           "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
           "stockistId": "stock_1",
           "stockistName": "Stockist 1"
         },
         {
           "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
           "stockistId": "stock_2",
           "stockistName": "Stockist 2"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
+          "stockistId": "stock_3",
+          "stockistName": "Stockist 3"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
+          "stockistId": "stock_4",
+          "stockistName": "Stockist 4"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
+          "stockistId": "stock_5",
+          "stockistName": "Stockist 5"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
+          "stockistId": "stock_6",
+          "stockistName": "Stockist 6"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
+          "stockistId": "stock_7",
+          "stockistName": "Stockist 7"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234",
+          "contactPerson": "ABC",
+          "emailID": "xyz@gmail.com",
+          "stockistId": "stock_8",
+          "stockistName": "Stockist 8"
         }
       ]
     }

@@ -6,18 +6,23 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
 
-import javax.annotation.Resource;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import entities.CompanyDetail;
+import entities.ProductDetail;
 import entities.RequestParam;
 import entities.ResponseData;
+import entities.StockistDetail;
 
 public class ServiceDelegate {
 	
 	String searchParamProvided = "0";
+	int defPageSize = 6;
 
 	public ServiceDelegate() {
 	}
@@ -74,6 +79,14 @@ public class ServiceDelegate {
 	public ResponseData getData(RequestParam requestParam) {
 		
 		ResponseData responseDataObj = null;
+		int pageNo = 1;
+		int countCompany = 0 ;
+		int countProduct = 0;
+		int countStockist = 0;
+		int noRecordsReturned = 0 ;
+		int noRecordsAvailable = 0;
+		int startIndex = 0;
+		int endIndex = 0 ;
 
         try {
         	String filePath = getFilePath (requestParam);
@@ -81,7 +94,7 @@ public class ServiceDelegate {
         	System.out.println("filePath>>"+filePath);
         	File responseDataFile = new File(filePath);
         	System.out.println("responseDataFile>>"+responseDataFile.getAbsolutePath());
-        	System.out.println("responseDataFile bool>>"+responseDataFile.isFile());
+        	
 			JAXBContext jc = JAXBContext.newInstance(ResponseData.class);
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
 		
@@ -90,8 +103,14 @@ public class ServiceDelegate {
                     		responseDataFile, "UTF-8")));*/
 			
 			responseDataObj = (ResponseData) unmarshaller.unmarshal(responseDataFile);
-			if (searchParamProvided.equalsIgnoreCase("0")){
-				
+			if (requestParam.getPageNo()!=null && !requestParam.getPageNo().isEmpty())
+			{
+				pageNo = Integer.parseInt(requestParam.getPageNo());
+			}
+			
+			
+			/*if (searchParamProvided.equalsIgnoreCase("0")){*/
+			if ((requestParam.getProductID()==null ||requestParam.getProductID().isEmpty()) && (requestParam.getCompanyID()==null ||requestParam.getCompanyID().isEmpty()) && (requestParam.getStockistID()==null ||requestParam.getStockistID().isEmpty())){				
 				if (requestParam.getFilterType().equalsIgnoreCase("Product")){
 					responseDataObj.setListCompanyDetail(null);
 					responseDataObj.setListStockistDetail(null);
@@ -111,6 +130,77 @@ public class ServiceDelegate {
 				}
 				
 			}
+			
+			/*
+			 * PaginationImplementation
+			 * */
+			 startIndex = ((pageNo*defPageSize) - defPageSize)+1;
+			 endIndex = (pageNo*defPageSize) ;	
+			 
+			 List<CompanyDetail> tempSubCompList = new ArrayList<CompanyDetail>();
+			 
+			 List<ProductDetail> tempSubProdList = new ArrayList<ProductDetail>();
+			 
+			 List<StockistDetail> tempSubStockistList = new ArrayList<StockistDetail>();
+			
+
+				
+				if (responseDataObj.getListCompanyDetail()!=null && responseDataObj.getListCompanyDetail().getCompanyDetail()!=null){
+					
+					 countCompany = responseDataObj.getListCompanyDetail().getCompanyDetail().size();
+					 
+					 if (countCompany>0 && countCompany>=endIndex){
+						 
+						 tempSubCompList = responseDataObj.getListCompanyDetail().getCompanyDetail().subList(startIndex-1, endIndex);
+					 }
+					 else if (countCompany>0 && countCompany<endIndex){
+						 
+						 tempSubCompList = responseDataObj.getListCompanyDetail().getCompanyDetail().subList(startIndex-1, countCompany);
+						 
+					 }
+					 responseDataObj.getListCompanyDetail().setCompanyDetail(tempSubCompList);
+				}
+				if (responseDataObj.getListProductDetail()!=null && responseDataObj.getListProductDetail().getProductDetail()!=null){
+					
+					 countProduct = responseDataObj.getListProductDetail().getProductDetail().size();
+					 
+					 if (countProduct>0 && countProduct>=endIndex){
+						 
+						 tempSubProdList = responseDataObj.getListProductDetail().getProductDetail().subList(startIndex-1, endIndex);
+					 }
+					 else if (countProduct>0 && countProduct<endIndex){
+						 
+						 tempSubProdList = responseDataObj.getListProductDetail().getProductDetail().subList(startIndex-1, countProduct);
+						 
+					 }
+					 responseDataObj.getListProductDetail().setProductDetail(tempSubProdList);					 
+					
+				}
+				
+				if (responseDataObj.getListStockistDetail()!=null && responseDataObj.getListStockistDetail().getStockistDetail()!=null){
+					
+					 countStockist = responseDataObj.getListStockistDetail().getStockistDetail().size();
+					 
+					 if (countStockist>0 && countStockist>=endIndex){
+						 
+						 tempSubStockistList = responseDataObj.getListStockistDetail().getStockistDetail().subList(startIndex-1, endIndex);
+					 }
+					 else if (countStockist>0 && countStockist<endIndex){
+						 
+						 tempSubStockistList = responseDataObj.getListStockistDetail().getStockistDetail().subList(startIndex-1, countStockist);
+						 
+					 }
+					 responseDataObj.getListStockistDetail().setStockistDetail(tempSubStockistList);					 
+					
+				}
+				
+				/*
+				 * Maximum of countCompany/countProduct/countStockist is being calculated
+				 * */
+				noRecordsAvailable =(countCompany>countProduct)? countCompany:countProduct;
+				noRecordsAvailable =(noRecordsAvailable>countStockist)? noRecordsAvailable:countStockist;
+				
+			
 			System.out.println("Done");
 		} catch (JAXBException e) {
 			// TODO Auto-generated catch block
@@ -204,15 +294,16 @@ public class ServiceDelegate {
     	
     	//String filePath = "WEB-INF/../WebContent/WEB-INF/ResponseData/Cache/CachedData.xml";
     	//String filePath = "..\\helperClasses\\CachedData.xml";
+    	
     	String home="../webapps/medloc/WEB-INF/classes/";
-    	String filePath = "config/ResponseData/Cache/CachedData.xml";    	
+		String filePath = "config/ResponseData/Cache/CachedData.xml";
     	
     	String filterType = requestParam.getFilterType();
     	
     	if (filterType.equalsIgnoreCase("Product")){
     		
-    		if (requestParam.getSearchString()!=null && requestParam.getSearchString()!=""){
-    			searchParamProvided = "1";
+    		/*if (requestParam.getSearchString()!=null && !requestParam.getSearchString().isEmpty()){
+    			searchParamProvided = "1";*/
     			if (requestParam.getProductID()!=null){
     				
     				filePath = "config/ResponseData/SearchByProduct/SBPS2.xml";
@@ -222,13 +313,15 @@ public class ServiceDelegate {
     				filePath = "config/ResponseData/SearchByProduct/SBPS1.xml" ;
     				
     			}
-    		}
+    			
+
+    		//}
     		
     	}
     	else if (filterType.equalsIgnoreCase("Company")) {
     		
-    		if (requestParam.getSearchString()!=null && requestParam.getSearchString()!=""){
-    			searchParamProvided = "1";
+    		/*if (requestParam.getSearchString()!=null && !requestParam.getSearchString().isEmpty()){
+    			searchParamProvided = "1";*/
     			if (requestParam.getCompanyID()!=null && requestParam.getStockistID()!=null){
     				
     				filePath = "config/ResponseData/SearchByCompany/SBCS3.xml";
@@ -241,18 +334,25 @@ public class ServiceDelegate {
     			else {
     				filePath = "config/ResponseData/SearchByCompany/SBCS1.xml" ;
     			}
-    		}
+    		//}
 			
 		}
     	else if (filterType.equalsIgnoreCase("Stockist")) {
     		
-    		if (requestParam.getSearchString()!=null && requestParam.getSearchString()!=""){
-    			searchParamProvided = "1";
+/*    		if (requestParam.getSearchString()!=null && !requestParam.getSearchString().isEmpty()){
+    			searchParamProvided = "1";*/
     			
     			filePath = "config/ResponseData/SearchByStockist/SBSS1.xml" ;
     			
-    		}
+    		//}
 			
+		}
+    	
+    	// for FavList 
+    	
+		if (requestParam.getSearchString()!=null && requestParam.getSearchString().equalsIgnoreCase("FAV")){
+			
+			filePath = "config/ResponseData/Fav/FavData.xml";
 		}
     	
     	return home+filePath;

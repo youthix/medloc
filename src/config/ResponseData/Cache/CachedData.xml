@@ -84,30 +84,134 @@
          <companyName>Company 1</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_5</productId>
-         <productName>Medicine 1</productName>
+         <productName>Medicine 5</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
       </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_6</productId>
+         <productName>Medicine 6</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_2</companyId>
+         <companyName>Company 2</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_7</productId>
+         <productName>Medicine 7</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>         
+      <productDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Company 3</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_8</productId>
+         <productName>Medicine 8</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_9</productId>
+         <productName>Medicine 9</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_10</productId>
+         <productName>Medicine 10</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>      
    </listProductDetail>
    <listStockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
-         <contactNumber />
-         <contactPerson />
-         <emailID />
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_1</stockistId>
          <stockistName>Stockist 1</stockistName>
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
-         <contactNumber />
-         <contactPerson />
-         <emailID />
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_2</stockistId>
          <stockistName>Stockist 2</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_3</stockistId>
+         <stockistName>Stockist 3</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_4</stockistId>
+         <stockistName>Stockist 4</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_5</stockistId>
+         <stockistName>Stockist 5</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_6</stockistId>
+         <stockistName>Stockist 6</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_7</stockistId>
+         <stockistName>Stockist 7</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_8</stockistId>
+         <stockistName>Stockist 8</stockistName>
       </stockistDetail>      
    </listStockistDetail>
 </responseData>

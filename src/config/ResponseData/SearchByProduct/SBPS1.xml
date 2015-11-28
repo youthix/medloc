@@ -8,7 +8,7 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_1</productId>
          <productName>AMedicine1</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
       </productDetail>
@@ -18,7 +18,7 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_2</productId>
          <productName>AMedicine2</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
       </productDetail>         
@@ -28,7 +28,7 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_3</productId>
          <productName>AMedicine3</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
       </productDetail>
@@ -38,7 +38,7 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_4</productId>
          <productName>AMedicine4</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
       </productDetail>
@@ -48,10 +48,60 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_5</productId>
          <productName>AMedicine5</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
       </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_6</productId>
+         <productName>AMedicine6</productName>
+         <quantitiy/>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_2</companyId>
+         <companyName>Company 2</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_7</productId>
+         <productName>AMedicine7</productName>
+         <quantitiy/>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>         
+      <productDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Company 3</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_8</productId>
+         <productName>AMedicine9</productName>
+         <quantitiy/>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_10</productId>
+         <productName>AMedicine10</productName>
+         <quantitiy/>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_11</productId>
+         <productName>AMedicine11</productName>
+         <quantitiy/>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>      
    </listProductDetail>
    <listStockistDetail/>
 </responseData>

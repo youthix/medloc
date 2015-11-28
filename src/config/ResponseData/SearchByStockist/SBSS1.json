@@ -3,6 +3,9 @@
     "listStockistDetail": {
       "stockistDetail": {
         "address": "Kanpur",
+        "contactNumber": "1234567890",
+        "contactPerson": "ABC",
+        "emailID": "ABC@GMAIL.COM",
         "stockistId": "stock_1",
         "stockistName": "Stockist 1"
       }

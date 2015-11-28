@@ -8,7 +8,7 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_1</productId>
          <productName>AMedicine1</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
       </productDetail>

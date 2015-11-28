@@ -12,21 +12,93 @@
    <listStockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
-         <contactNumber />
-         <contactPerson />
-         <emailID />
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
          <quantitiy />
-         <stockistId>stock_1</stockistId>
-         <stockistName>Stockist 1</stockistName>
+         <stockistId>stock1</stockistId>
+         <stockistName>Stockist1</stockistName>
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
-         <contactNumber />
-         <contactPerson />
-         <emailID />
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
          <quantitiy />
-         <stockistId>stock_2</stockistId>
-         <stockistName>Stockist 2</stockistName>
-      </stockistDetail>      
+         <stockistId>stock2</stockistId>
+         <stockistName>Stockist2</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock3</stockistId>
+         <stockistName>Stockist3</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock4</stockistId>
+         <stockistName>Stockist4</stockistName>
+      </stockistDetail>  
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock5</stockistId>
+         <stockistName>Stockist5</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock6</stockistId>
+         <stockistName>Stockist6</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock7</stockistId>
+         <stockistName>Stockist7</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock8</stockistId>
+         <stockistName>Stockist8</stockistName>
+      </stockistDetail> 
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock9</stockistId>
+         <stockistName>Stockist9</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock10</stockistId>
+         <stockistName>Stockist10</stockistName>
+      </stockistDetail>                 
    </listStockistDetail>
 </responseData>
