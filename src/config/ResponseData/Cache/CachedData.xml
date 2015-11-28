@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail>
+      <companyDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Cipla</companyName>
+         <logo />
+         <url>http://www.cipla.com/</url>
+      </companyDetail>
+      <companyDetail>
+         <companyId>comp_2</companyId>
+         <companyName>Dr Reddys Labs</companyName>
+         <logo />
+         <url>http://www.drreddys.com/</url>
+      </companyDetail>  
+      <companyDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Lupin</companyName>
+         <logo />
+         <url>http://lupin.com/</url>
+      </companyDetail> 
+      <companyDetail>
+         <companyId>comp_4</companyId>
+         <companyName>Aurbindo Pharma</companyName>
+         <logo />
+         <url>http://www.aurobindo.com/</url>
+      </companyDetail> 
+      <companyDetail>
+         <companyId>comp_5</companyId>
+         <companyName>Cadilla</companyName>
+         <logo />
+         <url>http://cadilapharma.com//</url>
+      </companyDetail> 
+      <companyDetail>
+         <companyId>comp_6</companyId>
+         <companyName>Torrent</companyName>
+         <logo />
+         <url>http://www.torrentpharma.com/</url>
+      </companyDetail> 
+   </listCompanyDetail>
+   <listProductDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_1</productId>
+         <productName>Medicine 1</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_2</companyId>
+         <companyName>Company 2</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_2</productId>
+         <productName>Medicine 2</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>         
+      <productDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Company 3</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_3</productId>
+         <productName>Medicine 3</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_4</productId>
+         <productName>Medicine 4</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_5</productId>
+         <productName>Medicine 1</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+   </listProductDetail>
+   <listStockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber />
+         <contactPerson />
+         <emailID />
+         <quantitiy />
+         <stockistId>stock_1</stockistId>
+         <stockistName>Stockist 1</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber />
+         <contactPerson />
+         <emailID />
+         <quantitiy />
+         <stockistId>stock_2</stockistId>
+         <stockistName>Stockist 2</stockistName>
+      </stockistDetail>      
+   </listStockistDetail>
+</responseData>

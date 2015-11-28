@@ -1,0 +1,11 @@
+{
+  "responseData": {
+    "listStockistDetail": {
+      "stockistDetail": {
+        "address": "Kanpur",
+        "stockistId": "stock_1",
+        "stockistName": "Stockist 1"
+      }
+    }
+  }
+}

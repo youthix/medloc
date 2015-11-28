@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail>
+      <companyDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Cipla</companyName>
+         <logo />
+         <url>http://www.cipla.com/</url>
+      </companyDetail>
+      <companyDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Cipla_Lupin</companyName>
+         <logo />
+         <url>http://lupin.com/</url>
+      </companyDetail> 
+      <companyDetail>
+         <companyId>comp_5</companyId>
+         <companyName>Cipla_Cadilla</companyName>
+         <logo />
+         <url>http://cadilapharma.com//</url>
+      </companyDetail> 
+   </listCompanyDetail>
+   <listProductDetail/>
+   <listStockistDetail/>
+</responseData>

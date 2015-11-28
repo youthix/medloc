@@ -1,0 +1,32 @@
+{
+  "responseData": {
+    "listProductDetail": {
+      "productDetail": {
+        "companyId": "comp_1",
+        "companyName": "Company 1",
+        "expiryDate": "10/02/2016",
+        "productId": "med_1",
+        "productName": "AMedicine1",
+        "quantitiy": "10",
+        "type": "tablet",
+        "batchNo": "batch_1"
+      }
+    },
+    "listStockistDetail": {
+      "stockistDetail": [
+        {
+          "address": "Kanpur",
+          "quantitiy": "10",
+          "stockistId": "stock_1",
+          "stockistName": "Stockist 1"
+        },
+        {
+          "address": "Kanpur",
+          "quantitiy": "10",
+          "stockistId": "stock_2",
+          "stockistName": "Stockist 2"
+        }
+      ]
+    }
+  }
+}

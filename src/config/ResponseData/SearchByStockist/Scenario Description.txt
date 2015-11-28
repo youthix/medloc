@@ -1,0 +1,13 @@
+Use Case: 
+
+1) The user landed on Search Screen
+2) The user selected the search filter as "Stockist Name"
+3) The user provided Stockist name in search input field.(Service input will be search string and filterType)
+4) Tiles containing the relevant search results will be loaded . 
+   The information will comprise of the details about respective stockists.(datalist1.json)
+
+
+
+Note:
+1)IDs will not be dispalyed on any of the tiles.
+2)If the "quantity" tag is null or empty/blank then it will not be shown on the tile.

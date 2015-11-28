@@ -1,0 +1,25 @@
+{
+  "responseData": {
+    "listCompanyDetail": {
+      "companyDetail": {
+        "companyId": "comp_1",
+        "companyName": "Cipla",
+        "url": "http://www.cipla.com/"
+      }
+    },
+    "listStockistDetail": {
+      "stockistDetail": [
+        {
+          "address": "Kanpur",
+          "stockistId": "stock_1",
+          "stockistName": "Stockist 1"
+        },
+        {
+          "address": "Kanpur",
+          "stockistId": "stock_2",
+          "stockistName": "Stockist 2"
+        }
+      ]
+    }
+  }
+}

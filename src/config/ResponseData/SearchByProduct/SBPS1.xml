@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail/>
+   <listProductDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_1</productId>
+         <productName>AMedicine1</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_2</companyId>
+         <companyName>Company 2</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_2</productId>
+         <productName>AMedicine2</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>         
+      <productDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Company 3</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_3</productId>
+         <productName>AMedicine3</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_4</productId>
+         <productName>AMedicine4</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_2</batchNo>
+      </productDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_5</productId>
+         <productName>AMedicine5</productName>
+         <quantitiy>10</quantitiy>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+   </listProductDetail>
+   <listStockistDetail/>
+</responseData>

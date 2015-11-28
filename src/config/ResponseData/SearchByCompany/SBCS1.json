@@ -1,0 +1,23 @@
+{
+  "responseData": {
+    "listCompanyDetail": {
+      "companyDetail": [
+        {
+          "companyId": "comp_1",
+          "companyName": "Cipla",
+          "url": "http://www.cipla.com/"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Cipla_Lupin",
+          "url": "http://lupin.com/"
+        },
+        {
+          "companyId": "comp_5",
+          "companyName": "Cipla_Cadilla",
+          "url": "http://cadilapharma.com//"
+        }
+      ]
+    }
+  }
+}

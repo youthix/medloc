@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail>
+      <companyDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Cipla</companyName>
+         <logo />
+         <url>http://www.cipla.com/</url>
+      </companyDetail>
+   </listCompanyDetail>
+   <listProductDetail/>
+   <listStockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber />
+         <contactPerson />
+         <emailID />
+         <quantitiy />
+         <stockistId>stock_1</stockistId>
+         <stockistName>Stockist 1</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber />
+         <contactPerson />
+         <emailID />
+         <quantitiy />
+         <stockistId>stock_2</stockistId>
+         <stockistName>Stockist 2</stockistName>
+      </stockistDetail>      
+   </listStockistDetail>
+</responseData>

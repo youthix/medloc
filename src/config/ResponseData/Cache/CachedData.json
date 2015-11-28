@@ -1,0 +1,106 @@
+{
+  "responseData": {
+    "listCompanyDetail": {
+      "companyDetail": [
+        {
+          "companyId": "comp_1",
+          "companyName": "Cipla",
+          "url": "http://www.cipla.com/"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Dr Reddys Labs",
+          "url": "http://www.drreddys.com/"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Lupin",
+          "url": "http://lupin.com/"
+        },
+        {
+          "companyId": "comp_4",
+          "companyName": "Aurbindo Pharma",
+          "url": "http://www.aurobindo.com/"
+        },
+        {
+          "companyId": "comp_5",
+          "companyName": "Cadilla",
+          "url": "http://cadilapharma.com//"
+        },
+        {
+          "companyId": "comp_6",
+          "companyName": "Torrent",
+          "url": "http://www.torrentpharma.com/"
+        }
+      ]
+    },
+    "listProductDetail": {
+      "productDetail": [
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_1",
+          "productName": "Medicine 1",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Company 2",
+          "expiryDate": "10/02/2016",
+          "productId": "med_2",
+          "productName": "Medicine 2",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Company 3",
+          "expiryDate": "10/02/2016",
+          "productId": "med_3",
+          "productName": "Medicine 3",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_4",
+          "productName": "Medicine 4",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_5",
+          "productName": "Medicine 1",
+          "quantitiy": "10",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        }
+      ]
+    },
+    "listStockistDetail": {
+      "stockistDetail": [
+        {
+          "address": "Kanpur",
+          "stockistId": "stock_1",
+          "stockistName": "Stockist 1"
+        },
+        {
+          "address": "Kanpur",
+          "stockistId": "stock_2",
+          "stockistName": "Stockist 2"
+        }
+      ]
+    }
+  }
+}
