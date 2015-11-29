@@ -477,6 +477,7 @@ public class ServiceDelegate {
     				  detailobj.setExpiryDate(productDetailobj.getExpiryDate());
     				  detailobj.setQuantity(productDetailobj.getQuantity());
     				  detailobj.setType(productDetailobj.getType());
+    				  detailobj.setLogo("http://dev-medloc.ind-cloud.everdata.com/medloc/img/medicine-icons/"+productDetailobj.getType()+".png");
     				  lsdetailProduct.add(detailobj);
    				  
     		        }
