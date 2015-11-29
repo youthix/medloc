@@ -11,6 +11,7 @@ public class RequestParam {
     private String productID;
     private String companyID;
     private String stockistID;
+    private String locationID;
 	public String getSearchString() {
 		return searchString;
 	}
@@ -46,6 +47,12 @@ public class RequestParam {
 	}
 	public void setStockistID(String stockistID) {
 		this.stockistID = stockistID;
+	}
+	public String getLocationID() {
+		return locationID;
+	}
+	public void setLocationID(String locationID) {
+		this.locationID = locationID;
 	}
 
     
