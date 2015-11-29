@@ -10,7 +10,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import entities.RequestParam;
-import entities.ResponseData;
+import entities.ResponseVO;
 
 @Path("pharmacy")
 public class RESTServices {
@@ -47,7 +47,7 @@ public class RESTServices {
 	@Path("/getData")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
-	public ResponseData getData(RequestParam requestParam) {
+	public ResponseVO getData(RequestParam requestParam) {
 
 		//ServiceDelegate serviceDelegateObj = new ServiceDelegate();
 		return serviceDelegateObj.getData(requestParam);
@@ -64,7 +64,7 @@ public class RESTServices {
 	@Path("/getLocations")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
-	public ResponseData getLocations(RequestParam requestParam) {
+	public ResponseVO getLocations(RequestParam requestParam) {
 
 		//ServiceDelegate serviceDelegateObj = new ServiceDelegate();
 		return serviceDelegateObj.getLocations(requestParam);
