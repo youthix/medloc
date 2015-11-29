@@ -90,6 +90,10 @@ public class ServiceDelegate {
 			String filePath = getFilePath (requestParam);
 			
 			File responseDataFile = new File(filePath);
+
+			//File responseDataFile = new File(this.getClass().getResource(filePath).toURI());  			
+			
+			
 			System.out.println("loc>>"+responseDataFile.getAbsolutePath());
 			JAXBContext jc = JAXBContext.newInstance(ResponseData.class);
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
@@ -568,7 +572,7 @@ public class ServiceDelegate {
     			        }
     				  
     				  listDetailVOObj.setDetail(lsdetailLoc);
-    				  responseVOObj.setStockist((listDetailVOObj));    			
+    				  responseVOObj.setLocation((listDetailVOObj));    			
     		}    		
     		
     		responseVOObj.setTotalNoOfRecords(responseDataObj.getTotalNoOfRecords());
