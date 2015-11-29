@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail/>
+   <listProductDetail>
+      <productDetail>
+         <companyId>comp_1</companyId>
+         <companyName>Company 1</companyName>
+         <expiryDate>10/02/2016</expiryDate>
+         <productId>med_1</productId>
+         <productName>AMedicine1</productName>
+         <quantitiy/>
+         <type>tablet</type>
+         <batchNo>batch_1</batchNo>
+      </productDetail>
+   </listProductDetail>
+   <listStockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber />
+         <contactPerson />
+         <emailID />
+         <quantitiy>10</quantitiy>
+         <stockistId>stock_1</stockistId>
+         <stockistName>Stockist 1</stockistName>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber />
+         <contactPerson />
+         <emailID />
+         <quantitiy>10</quantitiy>
+         <stockistId>stock_2</stockistId>
+         <stockistName>Stockist 2</stockistName>
+      </stockistDetail>      
+   </listStockistDetail>
+</responseData>

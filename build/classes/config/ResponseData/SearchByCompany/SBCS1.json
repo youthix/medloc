@@ -1,0 +1,53 @@
+{
+  "responseData": {
+    "listCompanyDetail": {
+      "companyDetail": [
+        {
+          "companyId": "comp_1",
+          "companyName": "Cipla",
+          "url": "http://www.cipla.com/"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Cipla_Lupin",
+          "url": "http://lupin.com/"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Cipla_Cadilla",
+          "url": "http://cadilapharma.com//"
+        },
+        {
+          "companyId": "comp_4",
+          "companyName": "Cipla_Comp4",
+          "url": "http://www.cipla.com/"
+        },
+        {
+          "companyId": "comp_5",
+          "companyName": "Cipla__Comp5",
+          "url": "http://lupin.com/"
+        },
+        {
+          "companyId": "comp_6",
+          "companyName": "Cipla_Comp6",
+          "url": "http://cadilapharma.com//"
+        },
+        {
+          "companyId": "comp_7",
+          "companyName": "Cipla_Comp7",
+          "url": "http://www.cipla.com/"
+        },
+        {
+          "companyId": "comp_8",
+          "companyName": "Cipla_Comp8",
+          "url": "http://lupin.com/"
+        },
+        {
+          "companyId": "comp_9",
+          "companyName": "Cipla_Comp9",
+          "url": "http://cadilapharma.com//"
+        }
+      ]
+    }
+  }
+}

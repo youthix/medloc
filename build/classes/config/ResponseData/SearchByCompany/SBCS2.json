@@ -1,0 +1,95 @@
+{
+  "responseData": {
+    "listCompanyDetail": {
+      "companyDetail": {
+        "companyId": "comp_1",
+        "companyName": "Cipla",
+        "url": "http://www.cipla.com/"
+      }
+    },
+    "listStockistDetail": {
+      "stockistDetail": [
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock1",
+          "stockistName": "Stockist1"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock2",
+          "stockistName": "Stockist2"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock3",
+          "stockistName": "Stockist3"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock4",
+          "stockistName": "Stockist4"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock5",
+          "stockistName": "Stockist5"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock6",
+          "stockistName": "Stockist6"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock7",
+          "stockistName": "Stockist7"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock8",
+          "stockistName": "Stockist8"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock9",
+          "stockistName": "Stockist9"
+        },
+        {
+          "address": "Kanpur",
+          "contactNumber": "1234567890",
+          "contactPerson": "ABC",
+          "emailID": "ABC@GMAIL.COM",
+          "stockistId": "stock10",
+          "stockistName": "Stockist10"
+        }
+      ]
+    }
+  }
+}

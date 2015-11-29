@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail/>
+   <listProductDetail/>
+   <listStockistDetail>
+      <stockistDetail>
+         <address>Kanpur</address>
+         <contactNumber>1234567890</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>ABC@GMAIL.COM</emailID>
+         <quantitiy />
+         <stockistId>stock_1</stockistId>
+         <stockistName>Stockist 1</stockistName>
+      </stockistDetail>
+   </listStockistDetail>
+</responseData>

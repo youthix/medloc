@@ -1,0 +1,98 @@
+{
+  "responseData": {
+    "listProductDetail": {
+      "productDetail": [
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_1",
+          "productName": "AMedicine1",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Company 2",
+          "expiryDate": "10/02/2016",
+          "productId": "med_2",
+          "productName": "AMedicine2",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Company 3",
+          "expiryDate": "10/02/2016",
+          "productId": "med_3",
+          "productName": "AMedicine3",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_4",
+          "productName": "AMedicine4",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_5",
+          "productName": "AMedicine5",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_6",
+          "productName": "AMedicine6",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_2",
+          "companyName": "Company 2",
+          "expiryDate": "10/02/2016",
+          "productId": "med_7",
+          "productName": "AMedicine7",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_3",
+          "companyName": "Company 3",
+          "expiryDate": "10/02/2016",
+          "productId": "med_8",
+          "productName": "AMedicine9",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_10",
+          "productName": "AMedicine10",
+          "type": "tablet",
+          "batchNo": "batch_2"
+        },
+        {
+          "companyId": "comp_1",
+          "companyName": "Company 1",
+          "expiryDate": "10/02/2016",
+          "productId": "med_11",
+          "productName": "AMedicine11",
+          "type": "tablet",
+          "batchNo": "batch_1"
+        }
+      ]
+    }
+  }
+}
