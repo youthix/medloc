@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responseData>
+   <listCompanyDetail/>
+   <listProductDetail/>
+   <listStockistDetail/>
+   <listLocationDetail>
+      <locationDetail>
+         <locationId>loc1</locationId>
+         <locationName>Kanpur</locationName>
+      </locationDetail>   
+      <locationDetail>
+         <locationId>loc2</locationId>
+         <locationName>Lucknow</locationName>
+      </locationDetail>       
+</listLocationDetail>      
+</responseData>
