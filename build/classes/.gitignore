@@ -1,4 +1,6 @@
-/restfulpkg/
+/db.properties
+/Test.class
+/dbutilities/
 /entities/
 /helperClasses/
-/config/
+/restfulpkg/
