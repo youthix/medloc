@@ -59,5 +59,15 @@ public class RESTServices {
 	public String helloWorld() {
 		return "Hello , Kya hukm hai mere Aaka!";
 	}
+	
+	@POST
+	@Path("/getLocations")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public ResponseData getLocations(RequestParam requestParam) {
+
+		//ServiceDelegate serviceDelegateObj = new ServiceDelegate();
+		return serviceDelegateObj.getLocations(requestParam);
+	}
 
 }
