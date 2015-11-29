@@ -1,7 +1,4 @@
-/Test.class
-/config/
-/db.properties
-/dbutilities/
+/restfulpkg/
 /entities/
 /helperClasses/
-/restfulpkg/
+/config/
