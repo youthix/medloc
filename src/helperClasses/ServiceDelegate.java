@@ -3,6 +3,7 @@ package helperClasses;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
@@ -76,6 +77,33 @@ public class ServiceDelegate {
 
 	}*/
 
+	public ResponseData getLocations(RequestParam requestParam) {
+		ResponseData responseDataObj = null;
+		try {
+			
+			requestParam.setSearchString("LOC");
+			String filePath = getFilePath (requestParam);
+			//File responseDataFile = new File(filePath);
+			
+			File responseDataFile = new File(filePath);
+			System.out.println("loc>>"+responseDataFile.getAbsolutePath());
+			JAXBContext jc = JAXBContext.newInstance(ResponseData.class);
+			Unmarshaller unmarshaller = jc.createUnmarshaller();
+
+			
+			responseDataObj = (ResponseData) unmarshaller.unmarshal(responseDataFile);
+
+		}  catch (JAXBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return responseDataObj;
+	}	
+
 	public ResponseData getData(RequestParam requestParam) {
 		
 		ResponseData responseDataObj = null;
@@ -84,7 +112,8 @@ public class ServiceDelegate {
 		int countProduct = 0;
 		int countStockist = 0;
 		int noRecordsReturned = 0 ;
-		int noRecordsAvailable = 0;
+		int totalNoRecordsAvailable = 0;
+		int noRecordsToBeReturned = 0;
 		int startIndex = 0;
 		int endIndex = 0 ;
 
@@ -149,7 +178,11 @@ public class ServiceDelegate {
 					
 					 countCompany = responseDataObj.getListCompanyDetail().getCompanyDetail().size();
 					 
-					 if (countCompany>0 && countCompany>=endIndex){
+					 if(startIndex>countCompany){
+						 
+						 tempSubCompList=null;
+					 }					 
+					 else if (countCompany>0 && countCompany>=endIndex){
 						 
 						 tempSubCompList = responseDataObj.getListCompanyDetail().getCompanyDetail().subList(startIndex-1, endIndex);
 					 }
@@ -163,8 +196,13 @@ public class ServiceDelegate {
 				if (responseDataObj.getListProductDetail()!=null && responseDataObj.getListProductDetail().getProductDetail()!=null){
 					
 					 countProduct = responseDataObj.getListProductDetail().getProductDetail().size();
+
+					 if(startIndex>countProduct){
+						 
+						 tempSubProdList=null;
+					 }					 
 					 
-					 if (countProduct>0 && countProduct>=endIndex){
+					 else if (countProduct>0 && countProduct>=endIndex){
 						 
 						 tempSubProdList = responseDataObj.getListProductDetail().getProductDetail().subList(startIndex-1, endIndex);
 					 }
@@ -180,8 +218,13 @@ public class ServiceDelegate {
 				if (responseDataObj.getListStockistDetail()!=null && responseDataObj.getListStockistDetail().getStockistDetail()!=null){
 					
 					 countStockist = responseDataObj.getListStockistDetail().getStockistDetail().size();
+
+					 if(startIndex>countStockist){
+						 
+						 tempSubStockistList=null;
+					 }					 
 					 
-					 if (countStockist>0 && countStockist>=endIndex){
+					 else if (countStockist>0 && countStockist>=endIndex){
 						 
 						 tempSubStockistList = responseDataObj.getListStockistDetail().getStockistDetail().subList(startIndex-1, endIndex);
 					 }
@@ -197,8 +240,21 @@ public class ServiceDelegate {
 				/*
 				 * Maximum of countCompany/countProduct/countStockist is being calculated
 				 * */
-				noRecordsAvailable =(countCompany>countProduct)? countCompany:countProduct;
-				noRecordsAvailable =(noRecordsAvailable>countStockist)? noRecordsAvailable:countStockist;
+				totalNoRecordsAvailable =(countCompany>countProduct)? countCompany:countProduct;
+				totalNoRecordsAvailable =(totalNoRecordsAvailable>countStockist)? totalNoRecordsAvailable:countStockist;
+				
+				noRecordsReturned = pageNo*defPageSize;
+				noRecordsToBeReturned = totalNoRecordsAvailable - (pageNo*defPageSize);
+				if(noRecordsToBeReturned<0){
+					noRecordsReturned = noRecordsReturned + noRecordsToBeReturned;
+					noRecordsToBeReturned=0;
+				}
+				
+				
+				responseDataObj.setTotalNoOfRecords(String.valueOf(totalNoRecordsAvailable));
+				responseDataObj.setNoRecordsReturned(String.valueOf(noRecordsReturned));
+				responseDataObj.setNoRecordsToBeReturned(String.valueOf(noRecordsToBeReturned));;
+				responseDataObj.setDefaultPageSize(String.valueOf(defPageSize));
 				
 			
 			System.out.println("Done");
@@ -292,14 +348,13 @@ public class ServiceDelegate {
     
     private String getFilePath(RequestParam requestParam){
     	
-    	//String filePath = "WEB-INF/../WebContent/WEB-INF/ResponseData/Cache/CachedData.xml";
-    	//String filePath = "..\\helperClasses\\CachedData.xml";
-    	
     	String home="../webapps/medloc/WEB-INF/classes/";
 		String filePath = "config/ResponseData/Cache/CachedData.xml";
     	
     	String filterType = requestParam.getFilterType();
-    	
+
+		if(filterType!=null && !filterType.isEmpty()){  
+
     	if (filterType.equalsIgnoreCase("Product")){
     		
     		/*if (requestParam.getSearchString()!=null && !requestParam.getSearchString().isEmpty()){
@@ -347,6 +402,10 @@ public class ServiceDelegate {
     		//}
 			
 		}
+
+		}  	
+    	
+
     	
     	// for FavList 
     	
@@ -354,6 +413,11 @@ public class ServiceDelegate {
 			
 			filePath = "config/ResponseData/Fav/FavData.xml";
 		}
+
+		if (requestParam.getSearchString()!=null && requestParam.getSearchString().equalsIgnoreCase("LOC")){
+			
+			filePath = "config/ResponseData/Location/location.xml";
+		}		
     	
     	return home+filePath;
     	
