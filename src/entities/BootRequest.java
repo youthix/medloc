@@ -1,5 +1,8 @@
 package entities;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "bootRequest")
 public class BootRequest {
 	
 	public String uuid;
