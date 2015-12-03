@@ -5,19 +5,19 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "productDetail")
 public class ProductDetail {
 	
-    private String productId;
-    private String productName;
-    private String batchNo;
-    private String companyName;
-    private String expiryDate;
-    private String type;
-    private String quantity;
-    private String companyId;
-    private String potency;
-    private String symptoms;
-    private String composition;
-    private String alternate;
-    private String price;    
+    private String productId="";
+    private String productName="";
+    private String batchNo="";
+    private String companyName="";
+    private String expiryDate="";
+    private String type="";
+    private String quantity="";
+    private String companyId="";
+    private String potency="";
+    private String symptoms="";
+    private String composition="";
+    private String alternate="";
+    private String price="";    
     
 	public String getProductId() {
 		return productId;

@@ -10,6 +10,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import entities.BootRequest;
 import entities.Bootstrap;
 import entities.RequestParam;
 import entities.ResponseVO;
@@ -87,7 +88,7 @@ public class RESTServices {
 	@Path("/boot")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Bootstrap getBootstrapConfig(UserInfo userInfo) {
+	public Bootstrap getBootstrapConfig(BootRequest bootRequest) {
 		
 		System.out.println("Application is booting ... >>");	
 		return serviceDelegateObj.getBootstrap();

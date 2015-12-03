@@ -5,9 +5,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "locationDetail")
 public class LocationDetail {
 	
-    private String locationId;
-    private String locationName;
-    private String locationPinCode;
+    private String locationId="";
+    private String locationName="";
+    private String locationPinCode="";
 	public String getLocationId() {
 		return locationId;
 	}

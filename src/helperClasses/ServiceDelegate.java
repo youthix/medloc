@@ -28,7 +28,6 @@ import entities.StockistDetail;
 public class ServiceDelegate {
 	
 	String searchParamProvided = "0";
-	Bootstrap bootstrap;
 	int defPageSize = 6;
 
 	public ServiceDelegate() {
@@ -442,8 +441,8 @@ public class ServiceDelegate {
 			//filePath = "..\\..\\ResponseData\\Location\\location.xml";
 		}		
     	
-    	//return home+filePath;
-		return filePath;
+    	return home+filePath;
+		//return filePath;
     	
     }
     
@@ -604,10 +603,10 @@ public class ServiceDelegate {
     	return responseVOObj;
     	
     }
-    
-    public Bootstrap getBootstrap(){
+
+	public Bootstrap getBootstrap(){
     	
-    	bootstrap=new Bootstrap();
+    	Bootstrap bootstrap=new Bootstrap();
     	return bootstrap;
     	    	
     }

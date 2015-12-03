@@ -5,16 +5,16 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "stockistDetail")
 public class StockistDetail {
 	
-    private String stockistId;
-    private String stockistName;
-    private String address;
-    private String contactNumber;
-    private String contactPerson;
-    private String emailID;
-    private String quantity;
-    private String intro;
-    private String offers;
-    private String price;
+    private String stockistId="";
+    private String stockistName="";
+    private String address="";
+    private String contactNumber="";
+    private String contactPerson="";
+    private String emailID="";
+    private String quantity="";
+    private String intro="";
+    private String offers="";
+    private String price="";
     
 	public String getStockistId() {
 		return stockistId;

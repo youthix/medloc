@@ -4,29 +4,29 @@ package entities;
 
 public class Detail {
 	
-    private String id;
-    private String name;
-    private String logo;
-    private String url;
-    private String pinCode; 
-    private String batchNo;
-    private String expiryDate;
-    private String type;
-    private String quantity;
-    private String companyID;
-    private String companyName;
-    private String address;
-    private String contactNumber;
-    private String contactPerson;
-    private String emailID;
-    private String potency;
-    private String symptoms;
-    private String composition;
-    private String alternate;
-    private String price;
-    private String intro;
-    private String offers;
-    private String splmsg;
+    private String id="";
+    private String name="";
+    private String logo="";
+    private String url="";
+    private String pinCode=""; 
+    private String batchNo="";
+    private String expiryDate="";
+    private String type="";
+    private String quantity="";
+    private String companyID="";
+    private String companyName="";
+    private String address="";
+    private String contactNumber="";
+    private String contactPerson="";
+    private String emailID="";
+    private String potency="";
+    private String symptoms="";
+    private String composition="";
+    private String alternate="";
+    private String price="";
+    private String intro="";
+    private String offers="";
+    private String splmsg="";
     
 	public String getId() {
 		return id;

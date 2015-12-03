@@ -5,12 +5,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "companyDetail")
 public class CompanyDetail {
 	
-    private String companyId;
-    private String companyName;
-    private String logo;
-    private String url;
-    private String intro;
-    private String offers;
+    private String companyId="";
+    private String companyName="";
+    private String logo="";
+    private String url="";
+    private String intro="";
+    private String offers="";
 	public String getCompanyId() {
 		return companyId;
 	}
