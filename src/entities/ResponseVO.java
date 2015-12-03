@@ -6,10 +6,10 @@ public class ResponseVO {
 	private ListDetailVO Company ;
 	private ListDetailVO Stockist ;
 	private ListDetailVO Location ;
-	private String totalNoOfRecords;
-	private String noRecordsReturned;
-	private String noRecordsToBeReturned;
-	private String defaultPageSize;
+	private String totalNoOfRecords="";
+	private String noRecordsReturned="";
+	private String noRecordsToBeReturned="";
+	private String defaultPageSize="";
 	public ListDetailVO getProduct() {
 		return Product;
 	}
