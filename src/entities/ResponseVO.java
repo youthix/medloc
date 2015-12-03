@@ -57,10 +57,6 @@ public class ResponseVO {
 	}
 	public void setDefaultPageSize(String defaultPageSize) {
 		this.defaultPageSize = defaultPageSize;
-	}
-	
-
-	
-	
+	}	
 
 }

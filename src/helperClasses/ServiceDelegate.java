@@ -3,7 +3,6 @@ package helperClasses;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
@@ -15,6 +14,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import entities.Bootstrap;
 import entities.CompanyDetail;
 import entities.Detail;
 import entities.ListDetailVO;
@@ -28,6 +28,7 @@ import entities.StockistDetail;
 public class ServiceDelegate {
 	
 	String searchParamProvided = "0";
+	Bootstrap bootstrap;
 	int defPageSize = 6;
 
 	public ServiceDelegate() {
@@ -441,8 +442,8 @@ public class ServiceDelegate {
 			//filePath = "..\\..\\ResponseData\\Location\\location.xml";
 		}		
     	
-    	return home+filePath;
-		//return filePath;
+    	//return home+filePath;
+		return filePath;
     	
     }
     
@@ -477,7 +478,14 @@ public class ServiceDelegate {
     				  detailobj.setExpiryDate(productDetailobj.getExpiryDate());
     				  detailobj.setQuantity(productDetailobj.getQuantity());
     				  detailobj.setType(productDetailobj.getType());
+    				  detailobj.setAlternate(productDetailobj.getAlternate());
+    				  detailobj.setComposition(productDetailobj.getComposition());
+    				  detailobj.setPotency(productDetailobj.getPotency());
+    				  detailobj.setPrice(productDetailobj.getPrice());
+    				  detailobj.setSymptoms(productDetailobj.getSymptoms());
+    				      				  
     				  detailobj.setLogo("http://dev-medloc.ind-cloud.everdata.com/medloc/img/medicine-icons/"+productDetailobj.getType()+".png");
+    				  
     				  lsdetailProduct.add(detailobj);
    				  
     		        }
@@ -508,6 +516,9 @@ public class ServiceDelegate {
 				  detailobj.setName(companyDetailobj.getCompanyName());
 				  detailobj.setLogo(companyDetailobj.getLogo());
 				  detailobj.setUrl(companyDetailobj.getUrl());
+				  detailobj.setIntro(companyDetailobj.getIntro());
+				  detailobj.setOffers(companyDetailobj.getOffers());
+				  
 				  lsdetailCompany.add(detailobj);
 				  
 		        }
@@ -540,6 +551,10 @@ public class ServiceDelegate {
     					  detailobj.setContactPerson(stockistDetailobj.getContactPerson());
     					  detailobj.setEmailID(stockistDetailobj.getEmailID());
     					  detailobj.setQuantity(stockistDetailobj.getQuantity());
+    					  detailobj.setIntro(stockistDetailobj.getIntro());
+    					  detailobj.setOffers(stockistDetailobj.getOffers());
+    					  detailobj.setPrice(stockistDetailobj.getPrice());
+    					  
     					  lsdetailStockist.add(detailobj);
     					  
     			        }
@@ -588,5 +603,12 @@ public class ServiceDelegate {
     	
     	return responseVOObj;
     	
+    }
+    
+    public Bootstrap getBootstrap(){
+    	
+    	bootstrap=new Bootstrap();
+    	return bootstrap;
+    	    	
     }
 }

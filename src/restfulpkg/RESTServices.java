@@ -10,6 +10,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import entities.Bootstrap;
 import entities.RequestParam;
 import entities.ResponseVO;
 import entities.UserInfo;
@@ -79,6 +80,17 @@ public class RESTServices {
 		
 		System.out.println("User is >>"+userInfo.toString());		
 		return Response.status(Response.Status.ACCEPTED).entity("User is successfully registered !"). build();
+		
+	}
+	
+	@POST
+	@Path("/boot")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Bootstrap getBootstrapConfig(UserInfo userInfo) {
+		
+		System.out.println("Application is booting ... >>");	
+		return serviceDelegateObj.getBootstrap();
 		
 	}
 

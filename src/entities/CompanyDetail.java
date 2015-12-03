@@ -9,6 +9,8 @@ public class CompanyDetail {
     private String companyName;
     private String logo;
     private String url;
+    private String intro;
+    private String offers;
 	public String getCompanyId() {
 		return companyId;
 	}
@@ -32,6 +34,18 @@ public class CompanyDetail {
 	}
 	public void setUrl(String url) {
 		this.url = url;
+	}
+	public String getIntro() {
+		return intro;
+	}
+	public void setIntro(String intro) {
+		this.intro = intro;
+	}
+	public String getOffers() {
+		return offers;
+	}
+	public void setOffers(String offers) {
+		this.offers = offers;
 	}
 
     

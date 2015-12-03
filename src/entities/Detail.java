@@ -1,8 +1,7 @@
 package entities;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "Detail")
+
 public class Detail {
 	
     private String id;
@@ -20,6 +19,15 @@ public class Detail {
     private String contactNumber;
     private String contactPerson;
     private String emailID;
+    private String potency;
+    private String symptoms;
+    private String composition;
+    private String alternate;
+    private String price;
+    private String intro;
+    private String offers;
+    private String splmsg;
+    
 	public String getId() {
 		return id;
 	}
@@ -109,6 +117,54 @@ public class Detail {
 	}
 	public void setEmailID(String emailID) {
 		this.emailID = emailID;
+	}
+	public String getPotency() {
+		return potency;
+	}
+	public void setPotency(String potency) {
+		this.potency = potency;
+	}
+	public String getSymptoms() {
+		return symptoms;
+	}
+	public void setSymptoms(String symptoms) {
+		this.symptoms = symptoms;
+	}
+	public String getComposition() {
+		return composition;
+	}
+	public void setComposition(String composition) {
+		this.composition = composition;
+	}
+	public String getAlternate() {
+		return alternate;
+	}
+	public void setAlternate(String alternate) {
+		this.alternate = alternate;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getIntro() {
+		return intro;
+	}
+	public void setIntro(String intro) {
+		this.intro = intro;
+	}
+	public String getOffers() {
+		return offers;
+	}
+	public void setOffers(String offers) {
+		this.offers = offers;
+	}
+	public String getSplmsg() {
+		return splmsg;
+	}
+	public void setSplmsg(String splmsg) {
+		this.splmsg = splmsg;
 	}
 
     

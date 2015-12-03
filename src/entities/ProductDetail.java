@@ -13,6 +13,11 @@ public class ProductDetail {
     private String type;
     private String quantity;
     private String companyId;
+    private String potency;
+    private String symptoms;
+    private String composition;
+    private String alternate;
+    private String price;    
     
 	public String getProductId() {
 		return productId;
@@ -61,6 +66,36 @@ public class ProductDetail {
 	}
 	public void setCompanyId(String companyId) {
 		this.companyId = companyId;
+	}
+	public String getPotency() {
+		return potency;
+	}
+	public void setPotency(String potency) {
+		this.potency = potency;
+	}
+	public String getSymptoms() {
+		return symptoms;
+	}
+	public void setSymptoms(String symptoms) {
+		this.symptoms = symptoms;
+	}
+	public String getComposition() {
+		return composition;
+	}
+	public void setComposition(String composition) {
+		this.composition = composition;
+	}
+	public String getAlternate() {
+		return alternate;
+	}
+	public void setAlternate(String alternate) {
+		this.alternate = alternate;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
 	}
     
     

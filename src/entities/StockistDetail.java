@@ -12,6 +12,10 @@ public class StockistDetail {
     private String contactPerson;
     private String emailID;
     private String quantity;
+    private String intro;
+    private String offers;
+    private String price;
+    
 	public String getStockistId() {
 		return stockistId;
 	}
@@ -53,6 +57,24 @@ public class StockistDetail {
 	}
 	public void setQuantity(String quantity) {
 		this.quantity = quantity;
+	}
+	public String getIntro() {
+		return intro;
+	}
+	public void setIntro(String intro) {
+		this.intro = intro;
+	}
+	public String getOffers() {
+		return offers;
+	}
+	public void setOffers(String offers) {
+		this.offers = offers;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
 	}
     
     
