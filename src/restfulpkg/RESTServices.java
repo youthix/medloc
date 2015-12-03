@@ -77,7 +77,7 @@ public class RESTServices {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response registerUser(UserInfo userInfo) {
 		
-		System.out.println("USer is >>"+userInfo.toString());		
+		System.out.println("User is >>"+userInfo.toString());		
 		return Response.status(Response.Status.ACCEPTED).entity("User is successfully registered !"). build();
 		
 	}
