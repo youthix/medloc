@@ -80,7 +80,7 @@ public class RESTServices {
 	public Response registerUser(UserInfo userInfo) {
 		
 		System.out.println("User is >>"+userInfo.toString());		
-		return Response.status(Response.Status.ACCEPTED).entity("User is successfully registered !"). build();
+		return Response.status(Response.Status.OK).entity("User is successfully registered !"). build();
 		
 	}
 	
