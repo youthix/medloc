@@ -8,9 +8,11 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import entities.RequestParam;
 import entities.ResponseVO;
+import entities.UserInfo;
 
 @Path("pharmacy")
 public class RESTServices {
@@ -68,6 +70,16 @@ public class RESTServices {
 
 		//ServiceDelegate serviceDelegateObj = new ServiceDelegate();
 		return serviceDelegateObj.getLocations(requestParam);
+	}
+	
+	@POST
+	@Path("/register-user")	
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response registerUser(UserInfo userInfo) {
+		
+		System.out.println("USer is >>"+userInfo.toString());		
+		return Response.status(Response.Status.ACCEPTED).entity("User is successfully registered !"). build();
+		
 	}
 
 }
