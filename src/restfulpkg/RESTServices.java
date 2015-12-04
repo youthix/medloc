@@ -12,6 +12,8 @@ import javax.ws.rs.core.Response;
 
 import entities.BootRequest;
 import entities.Bootstrap;
+import entities.Preferences;
+import entities.Query;
 import entities.RequestParam;
 import entities.ResponseVO;
 import entities.UserInfo;
@@ -92,6 +94,28 @@ public class RESTServices {
 		
 		System.out.println("Application is booting ... >>");	
 		return serviceDelegateObj.getBootstrap();
+		
+	}
+	
+	@POST
+	@Path("/send-query")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response sendQuery(Query query) {
+		
+		System.out.println("Query sent is... >>"+query.toString());	
+		return Response.status(Response.Status.OK).entity("Thanks for contacting us ! We will get back to you soon !"). build();
+		
+	}
+	
+	@POST
+	@Path("/set-pref")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response setPreferences(Preferences preferences) {
+		
+		System.out.println("Preferences sent is... >>"+preferences.toString());	
+		return Response.status(Response.Status.OK).entity("Preferences set !!"). build();
 		
 	}
 
