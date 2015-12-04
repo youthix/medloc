@@ -1,5 +1,8 @@
 package entities;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "preferences")
 public class Preferences {
 	
 	public String location="";
