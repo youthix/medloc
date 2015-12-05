@@ -7,6 +7,7 @@ public class Bootstrap{
 	public String faceUrl="https://www.facebook.com/";
 	public String tweetUrl="https://twitter.com/";
 	public String instaUrl="https://www.instagram.com/";
+	public String linkedUrl="https://in.linkedin.com/";
 	public String getPromotionArticle() {
 		return promotionArticle;
 	}
@@ -36,5 +37,11 @@ public class Bootstrap{
 	}
 	public void setInstaUrl(String instaUrl) {
 		this.instaUrl = instaUrl;
-	}		
+	}
+	public String getLinkedUrl() {
+		return linkedUrl;
+	}
+	public void setLinkedUrl(String linkedUrl) {
+		this.linkedUrl = linkedUrl;
+	}	
 }
