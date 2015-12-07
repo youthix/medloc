@@ -11,6 +11,8 @@
          <quantitiy />
          <stockistId>stock_1</stockistId>
          <stockistName>Stockist 1</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
    </listStockistDetail>
 </responseData>

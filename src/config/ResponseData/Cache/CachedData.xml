@@ -6,36 +6,48 @@
          <companyName>Cipla</companyName>
          <logo />
          <url>http://www.cipla.com/</url>
+         <intro>Cipla is a PharmaLeader</intro>
+         <offers>No Offer as of Now</offers>
       </companyDetail>
       <companyDetail>
          <companyId>comp_2</companyId>
          <companyName>Dr Reddys Labs</companyName>
          <logo />
          <url>http://www.drreddys.com/</url>
+         <intro>Dr Reddys Lab is a PharmaLeader</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail>  
       <companyDetail>
          <companyId>comp_3</companyId>
          <companyName>Lupin</companyName>
          <logo />
          <url>http://lupin.com/</url>
+         <intro>Lupin is a PharmaLeader</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_4</companyId>
          <companyName>Aurbindo Pharma</companyName>
          <logo />
          <url>http://www.aurobindo.com/</url>
+         <intro>Aurbindo Pharma is a PharmaLeader</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_5</companyId>
          <companyName>Cadilla</companyName>
          <logo />
          <url>http://cadilapharma.com//</url>
+         <intro>Cadilla is a PharmaLeader</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_6</companyId>
          <companyName>Torrent</companyName>
          <logo />
          <url>http://www.torrentpharma.com/</url>
+         <intro>Torrrent is a PharmaLeader</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
    </listCompanyDetail>
    <listProductDetail>
@@ -48,6 +60,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
@@ -58,6 +74,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 3</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
@@ -68,6 +88,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -78,6 +102,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -88,6 +116,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -98,6 +130,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
@@ -108,6 +144,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
@@ -118,6 +158,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -128,6 +172,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -138,6 +186,10 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>      
    </listProductDetail>
    <listStockistDetail>
@@ -149,6 +201,8 @@
          <quantitiy />
          <stockistId>stock_1</stockistId>
          <stockistName>Stockist 1</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -158,6 +212,8 @@
          <quantitiy />
          <stockistId>stock_2</stockistId>
          <stockistName>Stockist 2</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -167,6 +223,8 @@
          <quantitiy />
          <stockistId>stock_3</stockistId>
          <stockistName>Stockist 3</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -176,6 +234,8 @@
          <quantitiy />
          <stockistId>stock_4</stockistId>
          <stockistName>Stockist 4</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -185,6 +245,8 @@
          <quantitiy />
          <stockistId>stock_5</stockistId>
          <stockistName>Stockist 5</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -194,6 +256,8 @@
          <quantitiy />
          <stockistId>stock_6</stockistId>
          <stockistName>Stockist 6</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -212,6 +276,8 @@
          <quantitiy />
          <stockistId>stock_8</stockistId>
          <stockistName>Stockist 8</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>      
    </listStockistDetail>
 </responseData>

@@ -11,6 +11,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
@@ -21,6 +25,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
@@ -31,6 +39,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -41,6 +53,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -51,6 +67,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -61,6 +81,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
@@ -71,6 +95,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
@@ -81,6 +109,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -91,6 +123,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -101,6 +137,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>      
    </listProductDetail>
    <listStockistDetail/>

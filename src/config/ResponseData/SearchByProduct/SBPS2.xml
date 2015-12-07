@@ -11,6 +11,10 @@
          <quantitiy/>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg</potency>
+         <symptoms>Illness</symptoms>
+         <composition>Salt1, Salt2</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
    </listProductDetail>
    <listStockistDetail>
@@ -22,6 +26,8 @@
          <quantitiy>10</quantitiy>
          <stockistId>stock_1</stockistId>
          <stockistName>Stockist 1</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
          <address>Kanpur</address>
@@ -31,6 +37,8 @@
          <quantitiy>10</quantitiy>
          <stockistId>stock_2</stockistId>
          <stockistName>Stockist 2</stockistName>
+         <intro>Leading Stockist</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>      
    </listStockistDetail>
 </responseData>
