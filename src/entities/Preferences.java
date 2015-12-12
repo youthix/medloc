@@ -7,6 +7,7 @@ public class Preferences {
 	
 	public String location="";
 	public String emailNotify="";
+	public String emailId="";
 	
 	public String getLocation() {
 		return location;
@@ -19,6 +20,11 @@ public class Preferences {
 	}
 	public void setEmailNotify(String emailNotify) {
 		this.emailNotify = emailNotify;
-	}	
-
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
 }
