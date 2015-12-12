@@ -4,7 +4,7 @@
       <companyDetail>
          <companyId>comp_1</companyId>
          <companyName>Cipla</companyName>
-         <logo />
+         <logo>http://hydropure.in/clients/cipla.jpg</logo>
          <url>http://www.cipla.com/</url>
          <intro>Cipla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
          <offers>No Offer as of Now</offers>
@@ -22,6 +22,7 @@
          <stockistName>Stockist 1</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>
+         <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -32,7 +33,8 @@
          <stockistId>stock_2</stockistId>
          <stockistName>Stockist 2</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>      
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>   
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -43,7 +45,8 @@
          <stockistId>stock_3</stockistId>
          <stockistName>Stockist 3</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers> 
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>        
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -54,7 +57,8 @@
          <stockistId>stock_4</stockistId>
          <stockistName>Stockist 4</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>     
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>    
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -65,7 +69,8 @@
          <stockistId>stock_5</stockistId>
          <stockistName>Stockist 5</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>      
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>   
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -76,7 +81,8 @@
          <stockistId>stock_6</stockistId>
          <stockistName>Stockist 6</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>   
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>      
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -87,7 +93,8 @@
          <stockistId>stock_6</stockistId>
          <stockistName>Stockist 6</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>   
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>      
       </stockistDetail>
       <stockistDetail>
          <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
@@ -98,7 +105,8 @@
          <stockistId>stock_8</stockistId>
          <stockistName>Stockist 8</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>  
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>       
       </stockistDetail>               
    </listStockistDetail>
 </responseData>

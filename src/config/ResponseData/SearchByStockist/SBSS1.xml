@@ -12,7 +12,8 @@
          <stockistId>stock_1</stockistId>
          <stockistName>Stockist 1</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
-         <offers>Very Good Offers</offers>         
+         <offers>Very Good Offers</offers>
+         <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>       
       </stockistDetail>
    </listStockistDetail>
 </responseData>
