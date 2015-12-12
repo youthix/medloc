@@ -11,7 +11,7 @@ public class Bootstrap{
 	public String linkedUrl="https://in.linkedin.com/";
 	public String mailTo="medlocbox@gmail.com,scribbletechnologies@gmail.com";
 	public String mailSub="What's your say ? We are hearing !";
-	public String signupAlert="OOps 1 You have not logged in. Please restart the app and sign-up to enjoy full features od app .";
+	public String signupAlert="Oops! You have not logged in. Please restart the app and sign-up to enjoy full features of app .";
 	public String defNotify="Y";
 	public String getPromotionArticle() {
 		return promotionArticle;
