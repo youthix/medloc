@@ -6,8 +6,8 @@
          <companyName>Cipla</companyName>
          <logo />
          <url>http://www.cipla.com/</url>
-         <intro>Cipla is a PharmaLeader</intro>
-         <offers>No Offer as of Now</offers>         
+         <intro>Cipla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>
       </companyDetail>
    </listCompanyDetail>
    <listProductDetail>
@@ -15,154 +15,112 @@
          <companyId>comp_1</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
-         <productId>med_1</productId>
-         <productName>Medicine1</productName>
-         <quantitiy>10</quantitiy>
-         <type>tablet</type>
-         <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
-      </productDetail>
-      <productDetail>
-         <companyId>comp_2</companyId>
-         <companyName>Cipla</companyName>
-         <expiryDate>10/02/2016</expiryDate>
-         <productId>med_2</productId>
-         <productName>Medicine2</productName>
-         <quantitiy>10</quantitiy>
-         <type>tablet</type>
-         <batchNo>batch_2</batchNo>
-         <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
-      </productDetail>         
-      <productDetail>
-         <companyId>comp_3</companyId>
-         <companyName>Cipla</companyName>
-         <expiryDate>10/02/2016</expiryDate>
-         <productId>med_3</productId>
-         <productName>Medicine3</productName>
-         <quantitiy>10</quantitiy>
-         <type>tablet</type>
-         <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
-      </productDetail>
-      <productDetail>
-         <companyId>comp_1</companyId>
-         <companyName>Cipla</companyName>
-         <expiryDate>10/02/2016</expiryDate>
          <productId>med_4</productId>
-         <productName>Medicine4</productName>
+         <productName>Advent</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
          <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <symptoms>Respiratory Tract Infections</symptoms>
+         <composition>AMOXYCILLIN 500MG CLAVULANIC ACID 125MG</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_5</productId>
-         <productName>Medicine5</productName>
+         <productName>Urisoda</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <symptoms>Neutralize gastric acid.</symptoms>
+         <composition>Sodium bicarbonate - 1761.2 mg.,Sodium citrate  - 630.0 mg.,Citric a cid  - 715.2 mg.,Tartaric a cid - 890.0 mg.</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_6</productId>
-         <productName>Medicine6</productName>
+         <productName>Qinarsol</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <potency>30mg</potency>
+         <symptoms>Chloroquine-resistant falciparum malaria</symptoms>
+         <composition>Quinine Sulfate  300 mg</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_7</productId>
-         <productName>Medicine7</productName>
+         <productName>Indivan</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
-         <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <potency>200mg</potency>
+         <symptoms>HIV infection</symptoms>
+         <composition>Indinavir sulphate equivalent to Indinavir 200 mg.</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_8</productId>
-         <productName>Medicine8</productName>
+         <productName>Viatran</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <symptoms>Respiratory tract infections</symptoms>
+         <composition>Cefoperazone Sodium equivalent to Cefoperazone IP - 1,000 mg</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_9</productId>
-         <productName>Medicine9</productName>
+         <productName>Novamox</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
          <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <symptoms>susceptible (ONLY β-lactamase- negative) strains of the designated microorganisms</symptoms>
+         <composition>Amoxicillin Trihydrate IP equivalent to Amoxicillin</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
          <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_10</productId>
-         <productName>Medicine10</productName>
+         <productName>Urimax</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 3</alternate>           
+         <symptoms>benign prostatic hyperplasia</symptoms>
+         <composition>Tamsulosin hydrochloride - 200 mcg</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>      
    </listProductDetail>
    <listStockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>567890</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock1</stockistId>
-         <stockistName>Stockist1</stockistName>
-         <intro>Leading Stockist</intro>
-         <offers>Very Good Offers</offers>         
+         <stockistId>stock_1</stockistId>
+         <stockistName>Stockist 1</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>
       </stockistDetail>
    </listStockistDetail>
 </responseData>

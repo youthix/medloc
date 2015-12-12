@@ -6,71 +6,71 @@
          <companyName>Cipla</companyName>
          <logo />
          <url>http://www.cipla.com/</url>
-         <intro>Cipla is a PharmaLeader</intro>
-         <offers>No Offer as of Now</offers>         
+         <intro>Cipla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>
       </companyDetail>
       <companyDetail>
          <companyId>comp_2</companyId>
+         <companyName>Cipla_Dr Reddys Labs</companyName>
+         <logo />
+         <url>http://www.drreddys.com/</url>
+         <intro>Dr ReddysLab is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
+      </companyDetail>  
+      <companyDetail>
+         <companyId>comp_3</companyId>
          <companyName>Cipla_Lupin</companyName>
          <logo />
          <url>http://lupin.com/</url>
-         <intro>Cipla_Lupin is a PharmaLeader</intro>
-         <offers>No Offer as of Now</offers>         
-      </companyDetail> 
-      <companyDetail>
-         <companyId>comp_3</companyId>
-         <companyName>Cipla_Cadilla</companyName>
-         <logo />
-         <url>http://cadilapharma.com//</url>
-         <intro>Cipla_Cadilla is a PharmaLeader</intro>
+         <intro>Lupin is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
          <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_4</companyId>
-         <companyName>Cipla_Comp4</companyName>
+         <companyName>Cipla_Aurbindo Pharma</companyName>
          <logo />
-         <url>http://www.cipla.com/</url>
-         <intro>Cipla_Comp4 is a PharmaLeader</intro>
+         <url>http://www.aurobindo.com/</url>
+         <intro>AurbindoPharma is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
          <offers>No Offer as of Now</offers>         
-      </companyDetail>
+      </companyDetail> 
       <companyDetail>
          <companyId>comp_5</companyId>
-         <companyName>Cipla__Comp5</companyName>
+         <companyName>Cipla_Cadilla</companyName>
          <logo />
-         <url>http://lupin.com/</url>
-         <intro>Cipla_Comp5 is a PharmaLeader</intro>
+         <url>http://cadilapharma.com//</url>
+         <intro>Cadilla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
          <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_6</companyId>
-         <companyName>Cipla_Comp6</companyName>
+         <companyName>Cipla_Torrent</companyName>
          <logo />
-         <url>http://cadilapharma.com//</url>
-         <intro>Cipla_Comp6 is a PharmaLeader</intro>
+         <url>http://www.torrentpharma.com/</url>
+         <intro>Torrrent is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
          <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
-         <companyId>comp_7</companyId>
-         <companyName>Cipla_Comp7</companyName>
+         <companyId>comp_1</companyId>
+         <companyName>Cipla</companyName>
          <logo />
          <url>http://www.cipla.com/</url>
-         <intro>Cipla_Comp7 is a PharmaLeader</intro>
-         <offers>No Offer as of Now</offers>         
+         <intro>Cipla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>
       </companyDetail>
       <companyDetail>
-         <companyId>comp_8</companyId>
-         <companyName>Cipla_Comp8</companyName>
+         <companyId>comp_2</companyId>
+         <companyName>Dr Reddys Labs</companyName>
+         <logo />
+         <url>http://www.drreddys.com/</url>
+         <intro>Dr ReddysLab is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
+      </companyDetail>  
+      <companyDetail>
+         <companyId>comp_3</companyId>
+         <companyName>Lupin</companyName>
          <logo />
          <url>http://lupin.com/</url>
-         <intro>Cipla_Comp8 is a PharmaLeader</intro>
-         <offers>No Offer as of Now</offers>         
-      </companyDetail> 
-      <companyDetail>
-         <companyId>comp_9</companyId>
-         <companyName>Cipla_Comp9</companyName>
-         <logo />
-         <url>http://cadilapharma.com//</url>
-         <intro>Cipla_Comp9 is a PharmaLeader</intro>
+         <intro>Lupin is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
          <offers>No Offer as of Now</offers>         
       </companyDetail>             
    </listCompanyDetail>

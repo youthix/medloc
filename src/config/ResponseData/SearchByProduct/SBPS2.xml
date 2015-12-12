@@ -4,41 +4,41 @@
    <listProductDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_1</productId>
-         <productName>AMedicine1</productName>
-         <quantitiy/>
+         <productName>Saslic</productName>
+         <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
-         <symptoms>Illness</symptoms>
-         <composition>Salt1, Salt2</composition>
-         <alternate>Medicine 2</alternate>         
+         <potency>60ml</potency>
+         <symptoms>Acne, Oily Skin</symptoms>
+         <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
+         <alternate>Neutragena</alternate>
       </productDetail>
    </listProductDetail>
    <listStockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber />
-         <contactPerson />
-         <emailID />
-         <quantitiy>10</quantitiy>
-         <stockistId>stock_1</stockistId>
-         <stockistName>Stockist 1</stockistName>
-         <intro>Leading Stockist</intro>
+         <address>Medicine House1 (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantity>10</quantity>
+         <stockistId>stock_6</stockistId>
+         <stockistName>Stockist 6</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber />
-         <contactPerson />
-         <emailID />
-         <quantitiy>10</quantitiy>
-         <stockistId>stock_2</stockistId>
-         <stockistName>Stockist 2</stockistName>
-         <intro>Leading Stockist</intro>
+         <address>Medicine House2 (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantity>10</quantity>
+         <stockistId>stock_8</stockistId>
+         <stockistName>Stockist 8</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
-      </stockistDetail>      
+      </stockistDetail>     
    </listStockistDetail>
 </responseData>

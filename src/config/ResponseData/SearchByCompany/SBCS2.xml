@@ -6,121 +6,99 @@
          <companyName>Cipla</companyName>
          <logo />
          <url>http://www.cipla.com/</url>
-         <intro>Cipla is a PharmaLeader</intro>
-         <offers>No Offer as of Now</offers>         
+         <intro>Cipla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>
       </companyDetail>
    </listCompanyDetail>
    <listProductDetail/>
    <listStockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>567890</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock1</stockistId>
-         <stockistName>Stockist1</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_1</stockistId>
+         <stockistName>Stockist 1</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>
+      </stockistDetail>
+      <stockistDetail>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
+         <contactPerson>ABC</contactPerson>
+         <emailID>xyz@gmail.com</emailID>
+         <quantitiy />
+         <stockistId>stock_2</stockistId>
+         <stockistName>Stockist 2</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock2</stockistId>
-         <stockistName>Stockist2</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_3</stockistId>
+         <stockistName>Stockist 3</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock3</stockistId>
-         <stockistName>Stockist3</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_4</stockistId>
+         <stockistName>Stockist 4</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock4</stockistId>
-         <stockistName>Stockist4</stockistName>
-         <intro>Leading Stockist</intro>
-         <offers>Very Good Offers</offers>         
-      </stockistDetail>  
-      <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
-         <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
-         <quantitiy />
-         <stockistId>stock5</stockistId>
-         <stockistName>Stockist5</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_5</stockistId>
+         <stockistName>Stockist 5</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock6</stockistId>
-         <stockistName>Stockist6</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_6</stockistId>
+         <stockistName>Stockist 6</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock7</stockistId>
-         <stockistName>Stockist7</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_6</stockistId>
+         <stockistName>Stockist 6</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
+         <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock8</stockistId>
-         <stockistName>Stockist8</stockistName>
-         <intro>Leading Stockist</intro>
+         <stockistId>stock_8</stockistId>
+         <stockistName>Stockist 8</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>         
-      </stockistDetail> 
-      <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
-         <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
-         <quantitiy />
-         <stockistId>stock9</stockistId>
-         <stockistName>Stockist9</stockistName>
-         <intro>Leading Stockist</intro>
-         <offers>Very Good Offers</offers>         
-      </stockistDetail>
-      <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234567890</contactNumber>
-         <contactPerson>ABC</contactPerson>
-         <emailID>ABC@GMAIL.COM</emailID>
-         <quantitiy />
-         <stockistId>stock10</stockistId>
-         <stockistName>Stockist10</stockistName>
-         <intro>Leading Stockist</intro>
-         <offers>Very Good Offers</offers>         
-      </stockistDetail>                 
+      </stockistDetail>               
    </listStockistDetail>
 </responseData>
