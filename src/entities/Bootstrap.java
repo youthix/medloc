@@ -11,6 +11,8 @@ public class Bootstrap{
 	public String linkedUrl="https://in.linkedin.com/";
 	public String mailTo="medlocbox@gmail.com,scribbletechnologies@gmail.com";
 	public String mailSub="What's your say ? We are hearing !";
+	public String signupAlert="OOps 1 You have not logged in. Please restart the app and sign-up to enjoy full features od app .";
+	public String defNotify="Y";
 	public String getPromotionArticle() {
 		return promotionArticle;
 	}
@@ -64,5 +66,17 @@ public class Bootstrap{
 	}
 	public void setMailSub(String mailSub) {
 		this.mailSub = mailSub;
+	}
+	public String getSignupAlert() {
+		return signupAlert;
+	}
+	public void setSignupAlert(String signupAlert) {
+		this.signupAlert = signupAlert;
+	}
+	public String getDefNotify() {
+		return defNotify;
+	}
+	public void setDefNotify(String defNotify) {
+		this.defNotify = defNotify;
 	}	
 }
