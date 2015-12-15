@@ -15,6 +15,7 @@ public class StockistDetail {
     private String intro="";
     private String offers="";
     private String price="";
+    private String logo="";
     
 	public String getStockistId() {
 		return stockistId;
@@ -76,7 +77,10 @@ public class StockistDetail {
 	public void setPrice(String price) {
 		this.price = price;
 	}
-    
-    
-
+	public String getLogo() {
+		return logo;
+	}
+	public void setLogo(String logo) {
+		this.logo = logo;
+	}
 }

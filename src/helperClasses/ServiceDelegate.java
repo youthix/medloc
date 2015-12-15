@@ -553,7 +553,7 @@ public class ServiceDelegate {
     					  detailobj.setIntro(stockistDetailobj.getIntro());
     					  detailobj.setOffers(stockistDetailobj.getOffers());
     					  detailobj.setPrice(stockistDetailobj.getPrice());
-    					  
+    					  detailobj.setLogo(stockistDetailobj.getLogo());    					  
     					  lsdetailStockist.add(detailobj);
     					  
     			        }
