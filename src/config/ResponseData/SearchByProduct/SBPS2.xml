@@ -11,7 +11,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>60ml</potency>
+         <potency>60ml, 10 tablets in a strip</potency>
          <symptoms>Acne, Oily Skin</symptoms>
          <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
          <alternate>Neutragena</alternate>

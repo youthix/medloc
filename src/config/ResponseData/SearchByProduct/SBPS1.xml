@@ -11,7 +11,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>60ml</potency>
+         <potency>60ml, 60 ML Syrup in Bottle</potency>
          <symptoms>Acne, Oily Skin</symptoms>
          <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
          <alternate>Neutragena</alternate>
@@ -25,7 +25,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
-         <potency>10mg</potency>
+         <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Osteoporosis, bone loss</symptoms>
          <composition>Sodium Alendronate BP, Alendronic acid 35 mg / 70 mg / 10 mg</composition>
          <alternate>Medicine 3</alternate>         
@@ -39,7 +39,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>35mg</potency>
+         <potency>35mg, 10 tablets in a strip</potency>
          <symptoms>osteoporosis in postmenopausal women</symptoms>
          <composition>Risedronate Sodium</composition>
          <alternate>Medicine 2</alternate>         
@@ -53,7 +53,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
-         <potency>10mg</potency>
+         <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory Tract Infections</symptoms>
          <composition>AMOXYCILLIN 500MG CLAVULANIC ACID 125MG</composition>
          <alternate>Medicine 2</alternate>         
@@ -67,7 +67,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
+         <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Neutralize gastric acid.</symptoms>
          <composition>Sodium bicarbonate - 1761.2 mg.,Sodium citrate  - 630.0 mg.,Citric a cid  - 715.2 mg.,Tartaric a cid - 890.0 mg.</composition>
          <alternate>Medicine 2</alternate>         
@@ -81,7 +81,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>30mg</potency>
+         <potency>30mg, 10 tablets in a strip</potency>
          <symptoms>Chloroquine-resistant falciparum malaria</symptoms>
          <composition>Quinine Sulfate  300 mg</composition>
          <alternate>Medicine 2</alternate>         
@@ -95,7 +95,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
-         <potency>200mg</potency>
+         <potency>200mg, 10 tablets in a strip</potency>
          <symptoms>HIV infection</symptoms>
          <composition>Indinavir sulphate equivalent to Indinavir 200 mg.</composition>
          <alternate>Medicine 2</alternate>         
@@ -109,7 +109,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
+         <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory tract infections</symptoms>
          <composition>Cefoperazone Sodium equivalent to Cefoperazone IP - 1,000 mg</composition>
          <alternate>Medicine 2</alternate>         
@@ -123,7 +123,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
-         <potency>10mg</potency>
+         <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>susceptible (ONLY β-lactamase- negative) strains of the designated microorganisms</symptoms>
          <composition>Amoxicillin Trihydrate IP equivalent to Amoxicillin</composition>
          <alternate>Medicine 2</alternate>         
@@ -137,7 +137,7 @@
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
-         <potency>10mg</potency>
+         <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>benign prostatic hyperplasia</symptoms>
          <composition>Tamsulosin hydrochloride - 200 mcg</composition>
          <alternate>Medicine 2</alternate>         
