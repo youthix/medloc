@@ -9,9 +9,9 @@
          <productId>med_1</productId>
          <productName>Saslic</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>syrup</type>
          <batchNo>batch_1</batchNo>
-         <potency>60ml, 60 ML Syrup in Bottle</potency>
+         <potency>60ml,Syrup in Bottle</potency>
          <symptoms>Acne, Oily Skin</symptoms>
          <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
          <alternate>Neutragena</alternate>
