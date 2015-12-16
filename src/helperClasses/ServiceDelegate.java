@@ -553,7 +553,13 @@ public class ServiceDelegate {
     					  detailobj.setIntro(stockistDetailobj.getIntro());
     					  detailobj.setOffers(stockistDetailobj.getOffers());
     					  detailobj.setPrice(stockistDetailobj.getPrice());
-    					  detailobj.setLogo(stockistDetailobj.getLogo());    					  
+    					  if(stockistDetailobj.getStockistId().equalsIgnoreCase("stock_1")){
+    						  //detailobj.setLogo("<html><body><center><img src='http://2.bp.blogspot.com/-G1vh_uLbyM8/U5W__nOU6eI/AAAAAAAAIIg/v1y8V_TEduI/s1600/coffee-smiley.png' height='90' width='90'/><br></br><p>Welcome, Let us help you in finding your medicine. <br></br> Meanwhile you can have your coffee too. <br></br> Thanks !! </p></center></body></html>");
+    						  detailobj.setLogo(stockistDetailobj.getLogo()); 
+    					  }
+    					  else{
+    						  detailobj.setLogo(stockistDetailobj.getLogo());  
+    					  }
     					  lsdetailStockist.add(detailobj);
     					  
     			        }
