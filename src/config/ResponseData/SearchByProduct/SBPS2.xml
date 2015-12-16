@@ -8,7 +8,7 @@
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_1</productId>
          <productName>Saslic</productName>
-         <quantitiy>10</quantitiy>
+         <quantitiy></quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
          <potency>60ml, 10 tablets in a strip</potency>
@@ -23,7 +23,7 @@
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
-         <quantity>10</quantity>
+         <quantity>Qty:10</quantity>
          <stockistId>stock_6</stockistId>
          <stockistName>Stockist 6</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>

@@ -13,7 +13,7 @@
          <stockistName>Stockist 1</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>
-         <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>       
+         <logo><html><body><center><img src='http://2.bp.blogspot.com/-G1vh_uLbyM8/U5W__nOU6eI/AAAAAAAAIIg/v1y8V_TEduI/s1600/coffee-smiley.png' height='90' width='90'/><br></br><p>Welcome, Let us help you in finding your medicine. <br></br> Meanwhile you can have your coffee too. <br></br> Thanks !! </p></center></body></html></logo>       
       </stockistDetail>
    </listStockistDetail>
 </responseData>
