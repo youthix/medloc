@@ -23,7 +23,7 @@
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
-         <quantity>Qty:10</quantity>
+         <quantity> Qty:10  </quantity>
          <stockistId>stock_6</stockistId>
          <stockistName>Stockist 6</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
