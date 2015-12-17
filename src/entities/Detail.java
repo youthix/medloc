@@ -27,6 +27,10 @@ public class Detail {
     private String intro="";
     private String offers="";
     private String splmsg="";
+    private String shortAdd="";
+    private String dPrice="";
+    private String mrp="";
+    private String discPer="";
     
 	public String getId() {
 		return id;
@@ -166,7 +170,28 @@ public class Detail {
 	public void setSplmsg(String splmsg) {
 		this.splmsg = splmsg;
 	}
-
-    
-
+	public String getShortAdd() {
+		return shortAdd;
+	}
+	public void setShortAdd(String shortAdd) {
+		this.shortAdd = shortAdd;
+	}
+	public String getdPrice() {
+		return dPrice;
+	}
+	public void setdPrice(String dPrice) {
+		this.dPrice = dPrice;
+	}
+	public String getMrp() {
+		return mrp;
+	}
+	public void setMrp(String mrp) {
+		this.mrp = mrp;
+	}
+	public String getDiscPer() {
+		return discPer;
+	}
+	public void setDiscPer(String discPer) {
+		this.discPer = discPer;
+	}	
 }

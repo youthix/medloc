@@ -16,6 +16,10 @@ public class StockistDetail {
     private String offers="";
     private String price="";
     private String logo="";
+    private String shortAdd="";
+    private String dPrice="";
+    private String mrp="";
+    private String discPer="";
     
 	public String getStockistId() {
 		return stockistId;
@@ -83,4 +87,28 @@ public class StockistDetail {
 	public void setLogo(String logo) {
 		this.logo = logo;
 	}
+	public String getShortAdd() {
+		return shortAdd;
+	}
+	public void setShortAdd(String shortAdd) {
+		this.shortAdd = shortAdd;
+	}
+	public String getdPrice() {
+		return dPrice;
+	}
+	public void setdPrice(String dPrice) {
+		this.dPrice = dPrice;
+	}
+	public String getMrp() {
+		return mrp;
+	}
+	public void setMrp(String mrp) {
+		this.mrp = mrp;
+	}
+	public String getDiscPer() {
+		return discPer;
+	}
+	public void setDiscPer(String discPer) {
+		this.discPer = discPer;
+	}	
 }

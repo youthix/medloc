@@ -14,33 +14,41 @@
          <potency>60ml, Syrup in Bottle</potency>
          <symptoms>Acne, Oily Skin</symptoms>
          <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
-         <alternate>Neutragena</alternate>
+         <alternate>Neutragena</alternate>         
       </productDetail>
    </listProductDetail>
    <listStockistDetail>
       <stockistDetail>
-         <address>Medicine House1 (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <address>(G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
-         <quantity> Qty:10  </quantity>
+         <quantity> Qty:10      </quantity>
          <stockistId>stock_6</stockistId>
-         <stockistName>Stockist 6</stockistName>
+         <stockistName>Medicine House1</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>   
-         <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>      
+         <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo> 
+         <shortAdd>51/34 A Birhana Road, Kanpur</shortAdd>
+         <dPrice>1800</dPrice>
+         <mrp>2000</mrp>
+         <discPer>10%</discPer>     
       </stockistDetail>
       <stockistDetail>
-         <address>Medicine House2 (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <address>(G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantity>10</quantity>
          <stockistId>stock_8</stockistId>
-         <stockistName>Stockist 8</stockistName>
+         <stockistName>Medicine House2</stockistName>
          <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
          <offers>Very Good Offers</offers>   
-          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>      
+          <logo>https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Drugstore_store_pharmacy_medicine_hospital.png</logo>
+          <shortAdd>51/34 A Birhana Road, Kanpur</shortAdd>
+         <dPrice></dPrice>
+         <mrp>2000</mrp>
+         <discPer></discPer>      
       </stockistDetail>     
    </listStockistDetail>
 </responseData>
