@@ -34,6 +34,7 @@ public class ServiceDelegate {
 	}
 
 /*	public UserInfo validateUser(UserInfo userInfoObj) {
+ 		TEST#GIT
 		Connection con = null;
 		Statement stmt = null;
 		ResultSet rs = null;
