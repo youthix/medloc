@@ -23,7 +23,8 @@
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory Tract Infections</symptoms>
          <composition>AMOXYCILLIN 500MG CLAVULANIC ACID 125MG</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate> 
+         <price>100.00</price>        
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -37,7 +38,8 @@
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Neutralize gastric acid.</symptoms>
          <composition>Sodium bicarbonate - 1761.2 mg.,Sodium citrate  - 630.0 mg.,Citric a cid  - 715.2 mg.,Tartaric a cid - 890.0 mg.</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate>    
+         <price>100.00</price>      
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -51,7 +53,8 @@
          <potency>30mg, 10 tablets in a strip</potency>
          <symptoms>Chloroquine-resistant falciparum malaria</symptoms>
          <composition>Quinine Sulfate  300 mg</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate>  
+         <price>100.00</price>        
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
@@ -65,7 +68,8 @@
          <potency>200mg, 10 tablets in a strip</potency>
          <symptoms>HIV infection</symptoms>
          <composition>Indinavir sulphate equivalent to Indinavir 200 mg.</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate>   
+         <price>100.00</price>       
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
@@ -79,7 +83,8 @@
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory tract infections</symptoms>
          <composition>Cefoperazone Sodium equivalent to Cefoperazone IP - 1,000 mg</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate> 
+         <price>100.00</price>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -93,7 +98,8 @@
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>susceptible (ONLY β-lactamase- negative) strains of the designated microorganisms</symptoms>
          <composition>Amoxicillin Trihydrate IP equivalent to Amoxicillin</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate>  
+         <price>100.00</price>        
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
@@ -107,7 +113,8 @@
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>benign prostatic hyperplasia</symptoms>
          <composition>Tamsulosin hydrochloride - 200 mcg</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate>  
+         <price>10.00</price>        
       </productDetail>      
    </listProductDetail>
    <listStockistDetail>

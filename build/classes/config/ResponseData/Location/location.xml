@@ -7,10 +7,12 @@
       <locationDetail>
          <locationId>loc1</locationId>
          <locationName>Kanpur</locationName>
+         <locationPinCode>12345</locationPinCode>
       </locationDetail>   
       <locationDetail>
          <locationId>loc2</locationId>
          <locationName>Lucknow</locationName>
+		<locationPinCode>6789</locationPinCode>         
       </locationDetail>       
 </listLocationDetail>      
 </responseData>

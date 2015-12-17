@@ -6,212 +6,280 @@
          <companyName>Cipla</companyName>
          <logo />
          <url>http://www.cipla.com/</url>
+         <intro>Cipla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>
       </companyDetail>
       <companyDetail>
          <companyId>comp_2</companyId>
          <companyName>Dr Reddys Labs</companyName>
          <logo />
          <url>http://www.drreddys.com/</url>
+         <intro>Dr ReddysLab is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail>  
       <companyDetail>
          <companyId>comp_3</companyId>
          <companyName>Lupin</companyName>
          <logo />
          <url>http://lupin.com/</url>
+         <intro>Lupin is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_4</companyId>
          <companyName>Aurbindo Pharma</companyName>
          <logo />
          <url>http://www.aurobindo.com/</url>
+         <intro>AurbindoPharma is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_5</companyId>
          <companyName>Cadilla</companyName>
          <logo />
          <url>http://cadilapharma.com//</url>
+         <intro>Cadilla is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
       <companyDetail>
          <companyId>comp_6</companyId>
          <companyName>Torrent</companyName>
          <logo />
          <url>http://www.torrentpharma.com/</url>
+         <intro>Torrrent is a leading global healthcare company which uses technology and innovation to meet everyday needs of all patients</intro>
+         <offers>No Offer as of Now</offers>         
       </companyDetail> 
    </listCompanyDetail>
    <listProductDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_1</productId>
-         <productName>Medicine 1</productName>
+         <productName>Saslic</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>60ml, 60 ML Syrup in Bottle</potency>
+         <symptoms>Acne, Oily Skin</symptoms>
+         <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
+         <alternate>Neutragena</alternate>
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
-         <companyName>Company 2</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_2</productId>
-         <productName>Medicine 2</productName>
+         <productName>Osteofos</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg, 10 tablets in a strip</potency>
+         <symptoms>Osteoporosis, bone loss</symptoms>
+         <composition>Sodium Alendronate BP, Alendronic acid 35 mg / 70 mg / 10 mg</composition>
+         <alternate>Medicine 3</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
-         <companyName>Company 3</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_3</productId>
-         <productName>Medicine 3</productName>
+         <productName>Risofos</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>35mg, 10 tablets in a strip</potency>
+         <symptoms>osteoporosis in postmenopausal women</symptoms>
+         <composition>Risedronate Sodium</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_4</productId>
-         <productName>Medicine 4</productName>
+         <productName>Advent</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg, 10 tablets in a strip</potency>
+         <symptoms>Respiratory Tract Infections</symptoms>
+         <composition>AMOXYCILLIN 500MG CLAVULANIC ACID 125MG</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_5</productId>
-         <productName>Medicine 5</productName>
+         <productName>Urisoda</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg, 10 tablets in a strip</potency>
+         <symptoms>Neutralize gastric acid.</symptoms>
+         <composition>Sodium bicarbonate - 1761.2 mg.,Sodium citrate  - 630.0 mg.,Citric a cid  - 715.2 mg.,Tartaric a cid - 890.0 mg.</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_6</productId>
-         <productName>Medicine 6</productName>
+         <productName>Qinarsol</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>30mg, 10 tablets in a strip</potency>
+         <symptoms>Chloroquine-resistant falciparum malaria</symptoms>
+         <composition>Quinine Sulfate  300 mg</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
-         <companyName>Company 2</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_7</productId>
-         <productName>Medicine 7</productName>
+         <productName>Indivan</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>200mg, 10 tablets in a strip</potency>
+         <symptoms>HIV infection</symptoms>
+         <composition>Indinavir sulphate equivalent to Indinavir 200 mg.</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
-         <companyName>Company 3</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_8</productId>
-         <productName>Medicine 8</productName>
+         <productName>Viatran</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg, 10 tablets in a strip</potency>
+         <symptoms>Respiratory tract infections</symptoms>
+         <composition>Cefoperazone Sodium equivalent to Cefoperazone IP - 1,000 mg</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_9</productId>
-         <productName>Medicine 9</productName>
+         <productName>Novamox</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_2</batchNo>
+         <potency>10mg, 10 tablets in a strip</potency>
+         <symptoms>susceptible (ONLY β-lactamase- negative) strains of the designated microorganisms</symptoms>
+         <composition>Amoxicillin Trihydrate IP equivalent to Amoxicillin</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
-         <companyName>Company 1</companyName>
+         <companyName>Cipla</companyName>
          <expiryDate>10/02/2016</expiryDate>
          <productId>med_10</productId>
-         <productName>Medicine 10</productName>
+         <productName>Urimax</productName>
          <quantitiy>10</quantitiy>
          <type>tablet</type>
          <batchNo>batch_1</batchNo>
+         <potency>10mg, 10 tablets in a strip</potency>
+         <symptoms>benign prostatic hyperplasia</symptoms>
+         <composition>Tamsulosin hydrochloride - 200 mcg</composition>
+         <alternate>Medicine 2</alternate>         
       </productDetail>      
    </listProductDetail>
    <listStockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
-         <contactNumber>1234</contactNumber>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
+         <contactNumber>567890</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_1</stockistId>
          <stockistName>Stockist 1</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_2</stockistId>
          <stockistName>Stockist 2</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_3</stockistId>
          <stockistName>Stockist 3</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_4</stockistId>
          <stockistName>Stockist 4</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_5</stockistId>
          <stockistName>Stockist 5</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_6</stockistId>
          <stockistName>Stockist 6</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
-         <stockistId>stock_7</stockistId>
-         <stockistName>Stockist 7</stockistName>
+         <stockistId>stock_6</stockistId>
+         <stockistName>Stockist 6</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>
       <stockistDetail>
-         <address>Kanpur</address>
+         <address>Medicine House (G and F Floor) 51/34 A Birhana Road, 208001,  Kanpur</address>
          <contactNumber>1234</contactNumber>
          <contactPerson>ABC</contactPerson>
          <emailID>xyz@gmail.com</emailID>
          <quantitiy />
          <stockistId>stock_8</stockistId>
          <stockistName>Stockist 8</stockistName>
+         <intro>Leading Stockist of top Pharma Companies. Genuine products guranteed.</intro>
+         <offers>Very Good Offers</offers>         
       </stockistDetail>      
    </listStockistDetail>
 </responseData>
