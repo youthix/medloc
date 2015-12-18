@@ -15,6 +15,7 @@
          <symptoms>Acne, Oily Skin</symptoms>
          <composition>ASLIC : Salicylic Acid IP - 1%SASLIC DS : Salicylic Acid IP - 2%</composition>
          <alternate>Neutragena</alternate>
+         <price>100.00</price>  
       </productDetail>
       <productDetail>
          <companyId>comp_2</companyId>
@@ -28,7 +29,8 @@
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Osteoporosis, bone loss</symptoms>
          <composition>Sodium Alendronate BP, Alendronic acid 35 mg / 70 mg / 10 mg</composition>
-         <alternate>Medicine 3</alternate>         
+         <alternate>Medicine 3</alternate>      
+         <price>-</price>     
       </productDetail>         
       <productDetail>
          <companyId>comp_3</companyId>
@@ -42,7 +44,8 @@
          <potency>35mg, 10 tablets in a strip</potency>
          <symptoms>osteoporosis in postmenopausal women</symptoms>
          <composition>Risedronate Sodium</composition>
-         <alternate>Medicine 2</alternate>         
+         <alternate>Medicine 2</alternate>   
+         <price>N/A</price>        
       </productDetail>
       <productDetail>
          <companyId>comp_1</companyId>
