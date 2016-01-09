@@ -28,7 +28,7 @@ import entities.StockistDetail;
 public class ServiceDelegate {
 	
 	String searchParamProvided = "0";
-	int defPageSize = 6; 
+	int defPageSize  = 6;
 
 	public ServiceDelegate() {
 	}
@@ -128,6 +128,7 @@ public class ServiceDelegate {
 		int noRecordsToBeReturned = 0;
 		int startIndex = 0;
 		int endIndex = 0 ;
+		String searchString = null;
 
         try {
         	String filePath = getFilePath (requestParam);
@@ -152,22 +153,101 @@ public class ServiceDelegate {
 			
 			
 			/*if (searchParamProvided.equalsIgnoreCase("0")){*/
+			
+			if (requestParam.getSearchString()!=null && !requestParam.getSearchString().isEmpty()){
+				searchString = requestParam.getSearchString();
+			}
 			if ((requestParam.getProductID()==null ||requestParam.getProductID().isEmpty()) && (requestParam.getCompanyID()==null ||requestParam.getCompanyID().isEmpty()) && (requestParam.getStockistID()==null ||requestParam.getStockistID().isEmpty())){				
 				if (requestParam.getFilterType().equalsIgnoreCase("Product")){
 					responseDataObj.setListCompanyDetail(null);
 					responseDataObj.setListStockistDetail(null);
 					
+					/*Only Keep items matching the searchString*/
+					if(null!=searchString){
+						
+				    	if (responseDataObj!=null){
+			    		
+				    		if(responseDataObj.getListProductDetail()!=null && responseDataObj.getListProductDetail().getProductDetail()!=null){
+				    			
+				    			ProductDetail productDetailobj;
+				    			    			
+				    			ListIterator<ProductDetail> lsItrProd = responseDataObj.getListProductDetail().getProductDetail().listIterator();
+				    			
+				    			  while(lsItrProd.hasNext()){
+						    				  
+						    				  productDetailobj = lsItrProd.next();
+						    				  
+						    				  if((!(productDetailobj.getProductId().toLowerCase().contains(searchString.toLowerCase()))) && (!(productDetailobj.getProductName().toLowerCase().contains(searchString.toLowerCase()))))
+						    				  {
+						    					  lsItrProd.remove();
+						    					  //responseDataObj.getListProductDetail().getProductDetail().remove(productDetailobj);
+						    				  }
+				    				  }
+				    		        }
+				    		}
+					}
+						
 				}
+				
+
 				else if(requestParam.getFilterType().equalsIgnoreCase("Stockist")){
 					
 					responseDataObj.setListCompanyDetail(null);
-					responseDataObj.setListProductDetail(null);					
+					responseDataObj.setListProductDetail(null);	
+					/*Only Keep items matching the searchString*/
+					if(null!=searchString){
+						
+				    	if (responseDataObj!=null){
+			    		
+				    		if(responseDataObj.getListStockistDetail()!=null && responseDataObj.getListStockistDetail().getStockistDetail()!=null){
+				    			
+				    			StockistDetail stockistDetailobj;
+				    			    			
+				    			ListIterator<StockistDetail> lsItrStockist = responseDataObj.getListStockistDetail().getStockistDetail().listIterator();
+				    			
+				    			  while(lsItrStockist.hasNext()){
+						    				  
+				    				  stockistDetailobj = lsItrStockist.next();
+						    				  
+						    				  if((!(stockistDetailobj.getStockistId().toLowerCase().contains(searchString.toLowerCase()))) && (!(stockistDetailobj.getStockistName().toLowerCase().contains(searchString.toLowerCase()))))
+						    				  {
+						    					  lsItrStockist.remove();
+						    					  //responseDataObj.getListStockistDetail().getStockistDetail().remove(stockistDetailobj);
+						    				  }
+				    				  }
+				    		        }
+				    		}
+					}					
 					
 				}
 				else if (requestParam.getFilterType().equalsIgnoreCase("Company")){
 					
 					responseDataObj.setListStockistDetail(null);
-					responseDataObj.setListProductDetail(null);					
+					responseDataObj.setListProductDetail(null);		
+
+					if(null!=searchString){
+						
+				    	if (responseDataObj!=null){
+			    		
+				    		if(responseDataObj.getListCompanyDetail()!=null && responseDataObj.getListCompanyDetail().getCompanyDetail()!=null){
+				    			
+				    			CompanyDetail companyDetailobj;
+				    			    			
+				    			ListIterator<CompanyDetail> lsItrComp = responseDataObj.getListCompanyDetail().getCompanyDetail().listIterator();
+				    			
+				    			  while(lsItrComp.hasNext()){
+						    				  
+				    				  companyDetailobj = lsItrComp.next();
+						    				  
+						    				  if((!(companyDetailobj.getCompanyId().toLowerCase().contains(searchString.toLowerCase()))) && (!(companyDetailobj.getCompanyName().toLowerCase().contains(searchString.toLowerCase()))))
+						    				  {
+						    					  lsItrComp.remove();
+						    					  //responseDataObj.getListCompanyDetail().getCompanyDetail().remove(companyDetailobj);
+						    				  }
+				    				  }
+				    		        }
+				    		}
+					}	
 					
 				}
 				
