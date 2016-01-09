@@ -33,7 +33,7 @@
          <productId>med_5</productId>
          <productName>Urisoda</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>balm</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Neutralize gastric acid.</symptoms>
@@ -48,7 +48,7 @@
          <productId>med_6</productId>
          <productName>Qinarsol</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>capsule</type>
          <batchNo>batch_1</batchNo>
          <potency>30mg, 10 tablets in a strip</potency>
          <symptoms>Chloroquine-resistant falciparum malaria</symptoms>
@@ -63,7 +63,7 @@
          <productId>med_7</productId>
          <productName>Indivan</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>injection</type>
          <batchNo>batch_2</batchNo>
          <potency>200mg, 10 tablets in a strip</potency>
          <symptoms>HIV infection</symptoms>
@@ -78,7 +78,7 @@
          <productId>med_8</productId>
          <productName>Viatran</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>powder</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory tract infections</symptoms>
@@ -93,7 +93,7 @@
          <productId>med_9</productId>
          <productName>Novamox</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>spray</type>
          <batchNo>batch_2</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>susceptible (ONLY β-lactamase- negative) strains of the designated microorganisms</symptoms>
@@ -108,7 +108,7 @@
          <productId>med_10</productId>
          <productName>Urimax</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>syrup</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>benign prostatic hyperplasia</symptoms>
