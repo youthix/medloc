@@ -28,7 +28,7 @@ import entities.StockistDetail;
 public class ServiceDelegate {
 	
 	String searchParamProvided = "0";
-	int defPageSize = 6;
+	int defPageSize = 6; 
 
 	public ServiceDelegate() {
 	}
