@@ -58,7 +58,7 @@
          <productId>med_1</productId>
          <productName>Saslic</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>syrup</type>
          <batchNo>batch_1</batchNo>
          <potency>60ml, 60 ML Syrup in Bottle</potency>
          <symptoms>Acne, Oily Skin</symptoms>
@@ -86,7 +86,7 @@
          <productId>med_3</productId>
          <productName>Risofos</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>powder</type>
          <batchNo>batch_1</batchNo>
          <potency>35mg, 10 tablets in a strip</potency>
          <symptoms>osteoporosis in postmenopausal women</symptoms>
@@ -100,7 +100,7 @@
          <productId>med_4</productId>
          <productName>Advent</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>spray</type>
          <batchNo>batch_2</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory Tract Infections</symptoms>
@@ -114,7 +114,7 @@
          <productId>med_5</productId>
          <productName>Urisoda</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>balm</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Neutralize gastric acid.</symptoms>
@@ -128,7 +128,7 @@
          <productId>med_6</productId>
          <productName>Qinarsol</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>capsule</type>
          <batchNo>batch_1</batchNo>
          <potency>30mg, 10 tablets in a strip</potency>
          <symptoms>Chloroquine-resistant falciparum malaria</symptoms>
@@ -142,7 +142,7 @@
          <productId>med_7</productId>
          <productName>Indivan</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>gel</type>
          <batchNo>batch_2</batchNo>
          <potency>200mg, 10 tablets in a strip</potency>
          <symptoms>HIV infection</symptoms>
@@ -156,7 +156,7 @@
          <productId>med_8</productId>
          <productName>Viatran</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>injection</type>
          <batchNo>batch_1</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>Respiratory tract infections</symptoms>
@@ -170,7 +170,7 @@
          <productId>med_9</productId>
          <productName>Novamox</productName>
          <quantitiy>10</quantitiy>
-         <type>tablet</type>
+         <type>liquid</type>
          <batchNo>batch_2</batchNo>
          <potency>10mg, 10 tablets in a strip</potency>
          <symptoms>susceptible (ONLY β-lactamase- negative) strains of the designated microorganisms</symptoms>
